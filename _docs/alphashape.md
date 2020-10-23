@@ -3,8 +3,7 @@ title: Isochrone as Alphashape
 permalink: /docs/alphashape/
 ---
 
-GOAT allows you to calculate and visualize isochrones using alpha shapes. GOAT is using the function 
-[pgr_pointsAsPolygon](https://docs.pgrouting.org/v2.0.0-alpha/src/driving_distance/doc/dd_points_as_polygon.html) from the library `pgRouting` to generate alpha shapes. The result of this function is an isochrone (polygon) representing the area from a set of points that can be reached in a dedicated time.
+GOAT allows you to calculate and visualize isochrones using alpha shapes. GOAT is using a very fast 2D concave hull algorithm [Concaveman](https://github.com/mapbox/concaveman) which was implemented in the paper  [A New Concave Hull Algorithm and Concaveness Measure for n-dimensional Datasets, 2012](https://journal.iis.sinica.edu.tw/paper/1/100295-3.pdf?cd=2217EEBB7C44EDA26). This alogirthm generates isochrones (polygons) representing the area from a set of points that can be reached in a dedicated time.
 <td> {% include image.html src="docs/technical_documentation/alphashape/isochrone_as_alphashape.png" %} </td>
 
 #### 1. Alphashape
@@ -21,20 +20,13 @@ By decreasing the alpha parameter value, generated polygon will fit better the s
 A Concave hull describes better the shape of the point cloud than the convex hull.  
 <td> {% include image.html src="docs/technical_documentation/alphashape/concave_hull.png" %} </td>
 
-##### 2. Level of detail isochrones
-GOAT allows you to choose the level of detail to calculate isochrones. 
-The level of detail of the isochrone depends on the alpha-parameter. In the front-end of GOAT the level of detail of isochrones is categorized into six groups from 0 to 5 as following: 
-- Level of detail 0: α-parameter = 0.00003
-- Level of detail 1: α-parameter = 0.000003
-- Level of detail 2: α-parameter = 0.0000025
-- Level of detail 3: α-parameter = 0.000002
-- Level of detail 4: α-parameter = 0.0000017
-- Level of detail 5: α-parameter = 0.0000015
 
-The following example shows how the shape of the isochrone fits better to the network by increasing the level of detail.
+<b><font color="red"> Different alpha parameters can be used for the calculation of the isochrones. However, GOAT uses a specific alpha parameter for the visualization of the isochrones in the frontend. 
 
-<td> {% include image.html src="docs/technical_documentation/alphashape/levelofdetails.png" %} </td>
 
-<span style="color:red">Note: Using very high level of detail can generate errors.</span>
+
+
+
+
 
 
