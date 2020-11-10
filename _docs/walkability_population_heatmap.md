@@ -12,7 +12,7 @@ In addition to the [Walkability Heatmap](https://www.open-accessibility.org/docs
 {% include image.html src="docs/technical_documentation/walkability_population_index/walkability_population_map.png" %}
 
 #### 1. Calculation
-The layer of walkability population is the result of the intersection of the two layers walkability and population. 
+The walkability population heatmap is the result of the intersection of the two layers walkability and population. 
 {% include image.html src="docs/technical_documentation/walkability_population_index/intersection_2_layers.png" %}
 
 #### 2. Classification
