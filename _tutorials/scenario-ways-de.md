@@ -9,7 +9,7 @@ GOAT ermöglicht die Entwicklung eigener Szenarien, wie z.B. Modifikation des Ne
 
 #### Mögliche Anwendungsfälle (Planungsfragen)
 - Wie verändert sich die Erreichbarkeit durch den Bau einer neuen Fahrradbrücke über einen Fluss?
-- Wie verändert sich die Erreichbarkeit mit dem Rohlstuhl durch den Bau einer barrierefreien Wegeverbindung? 
+- Wie verändert sich die Erreichbarkeit mit dem Rollstuhl durch den Bau einer barrierefreien Wegeverbindung? 
 - Welche Variante eines neuen Radweges erschließt die höchste Anzahl an Anwohner?
 
 
