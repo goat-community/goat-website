@@ -6,8 +6,8 @@ permalink: /docs/walkability population heatmap/
 In addition to the [Walkability Heatmap](https://www.open-accessibility.org/docs/heatmap/), GOAT allows you to visualize another heatmap called Walkability Population Heatmap. This heatmap gives a better understanding of the accessibility in a specific area or neighborhood based on its population. The walkability population heatmap can be used to answer many planning questions. Among them:
 - Where can an accessibility surplus be found in the studied neighborhood?
 - Where can a density surplus be found in the studied neighborhood?
-- Where is densification needed? 
-- Where is the improvement of the accessibility to specific amenities or public transport stations needed?
+- Where is potential for is densification? 
+- Where is an improvement of accessibility to specific amenities or public transport stations needed?
 
 {% include image.html src="docs/technical_documentation/walkability_population_index/walkability_population_map.png" %}
 

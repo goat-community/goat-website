@@ -7,7 +7,7 @@ lang: de
 Zusätzlich zur [Walkability Heatmap](https://www.open-accessibility.org/docs/heatmap/) ermöglicht GOAT die Visualisierung einer weiteren Heatmap, genannt Walkability-Bevölkerungs-Index. Diese Heatmap ermöglicht ein besseres Verständnis der Erreichbarkeit in einem bestimmten Gebiet oder in einer bestimmten Nachbarschaft unter Berücksichtigung der Bevölkerungsdichten. Die Heatmap kann zur Beantwortung vieler Planungsfragen verwendet werden, wie zum Beispiel:
 - Wo herrscht in der untersuchten Nachbarschaft ein Erreichbarkeitssüberschuss?
 - Wo herrscht in der untersuchten Nachbarschaft ein Dichteüberschuss?
-- Wo ist eine (Nach-)Verdichtung erforderlich? 
+- Wo ist Potenzial für (Nach-)Verdichtung? 
 - Wo ist eine Verbesserung der Erreichbarkeit zu bestimmten Einrichtungen oder ÖV Haltestellen notwendig?
 
 {% include image.html src="docs/technical_documentation/walkability_population_index/walkability_population_map.png" %}
