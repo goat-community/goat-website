@@ -8,7 +8,7 @@ lang: de
 GOAT ermöglicht die Entwicklung eigener Szenarien zur Standortplanung, so kann ein bspw. ein neuer Supermarkt oder eine neue Schule hinzugefügt werden und die Auswirkungen auf die Erreichbarkeit mithilfe von Heatmaps und Multi-Isochronen ermittelt werden. 
 
 #### Mögliche Anwendungsfälle (Planungsfragen)
-- Wie verändert sich die Erreichbarkeit zu Supermärkten in einer Nachbarschaft, wenn den Standort eines Supermarktes vereändert wird?
+- Wie verändert sich die Erreichbarkeit zu Supermärkten in einer Nachbarschaft, wenn den Standort eines Supermarktes verändert wird?
 - Wie verändert sich die Erreichbarkeit zu Schulen, wenn eine neue Schule hinzugefügt wird?
 - Wie gut sind die Kindergärten über die Stadt verteilt? Wo wäre eine gute Position für einen neuen Kindergarten? 
 
