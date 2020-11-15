@@ -4,38 +4,22 @@ permalink: /de/docs/alphashape/
 lang: de
 ---
 
-GOAT allows you to calculate and visualize isochrones using alpha shapes. GOAT is using the function 
-[pgr_pointsAsPolygon](https://docs.pgrouting.org/v2.0.0-alpha/src/driving_distance/doc/dd_points_as_polygon.html) from the library `pgRouting` to generate alpha shapes. The result of this function is an isochrone (polygon) representing the area from a set of points that can be reached in a dedicated time.
+GOAT allows you to calculate and visualize isochrones using alpha shapes. GOAT is using a very fast 2D concave hull algorithm, which is described in this paper  [A New Concave Hull Algorithm and Concaveness Measure for n-dimensional Datasets, 2012](https://journal.iis.sinica.edu.tw/paper/1/100295-3.pdf?cd=2217EEBB7C44EDA26) and is implemented in a Javascript library called [Concaveman](https://github.com/mapbox/concaveman). This library generates isochrones (polygons) representing the area from a set of points that can be reached in a dedicated time.
+
 <td> {% include image.html src="docs/technical_documentation/alphashape/isochrone_as_alphashape.png" %} </td>
 
-#### 1. Alphashape
-Alpha shapes or α-shapes are often used to generalize bounding polygons around a given sets of points. Depending on the chosen alpha parameter the precision of the isochrone can differ. The following example illustrates how alpha shapes are generated depending on the alpha-parameter. 
+#### 1. Concave Hull
+Concave hulls are often used to generalize bounding polygons around a given sets of points. Depending on the chosen concaveness the precision of the isochrone can differ. The following example illustrates the difference between a convex and a concave hull. 
+
 ##### 1.1. Points from the network
 <td> {% include image.html src="docs/technical_documentation/alphashape/set_points.png" %} </td>
 
 ##### 1.2. Convex Hull 
-In the first case is the α-parameter=0. This mean the generated shape from the calculation resembles all the data points. This is called convex hull. 
+Imagine you take an a rubber band and you stretch it around the points. This is called convex hull. As you can see this representation is missing level of detail but comes with the advantage of fast computation. 
 <td> {% include image.html src="docs/technical_documentation/alphashape/convex_hull.png" %} </td>
 
 ##### 1.3. Concave Hull
-By decreasing the alpha parameter value, generated polygon will fit better the sample data. 
-A Concave hull describes better the shape of the point cloud than the convex hull.  
+A concave hull usually begins with a convex hull as starting geometry and then tries to fit better the point dataset. Depending on the chosen concavity the shape can be more or less precise. Different parameters can be used for the calculation of the isochrones, depending of the needed precision. However rising precision comes with higher computation times. 
 <td> {% include image.html src="docs/technical_documentation/alphashape/concave_hull.png" %} </td>
 
-##### 2. Level of detail isochrones
-GOAT allows you to choose the level of detail to calculate isochrones. 
-The level of detail of the isochrone depends on the alpha-parameter. In the front-end of GOAT the level of detail of isochrones is categorized into six groups from 0 to 5 as following: 
-- Level of detail 0: α-parameter = 0.00003
-- Level of detail 1: α-parameter = 0.000003
-- Level of detail 2: α-parameter = 0.0000025
-- Level of detail 3: α-parameter = 0.000002
-- Level of detail 4: α-parameter = 0.0000017
-- Level of detail 5: α-parameter = 0.0000015
-
-The following example shows how the shape of the isochrone fits better to the network by increasing the level of detail.
-
-<td> {% include image.html src="docs/technical_documentation/alphashape/levelofdetails.png" %} </td>
-
-<span style="color:red">Note: Using very high level of detail can generate errors.</span>
-
-
+Therefore, GOAT uses a specific parameter for the caclulation of the isochrones, that represents a compromise between accuracy and computation time. Thanks to the [PLV8 extension](https://github.com/plv8/plv8) the [Concaveman](https://github.com/mapbox/concaveman) library can be used directly in the PostgreSQL database.

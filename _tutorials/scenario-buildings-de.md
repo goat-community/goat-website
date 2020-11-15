@@ -19,7 +19,7 @@ GOAT ermöglicht Veränderungen in der Bebauung, wie z.B. die Errichtung eines n
 
 
 ###### 1.2 Arbeitsschritte
-1. Blenden Sie den Layer „Gebäude” aus der Kategorie „Gebäude und Flächennutzung” und den Layer „Bevölkerung” aus der Kategorie „Grundkarten Erreichbarkeit” ein. Diese zeigen alle vorhandenen Gebäude (in rot: Gebäude mit Wohnnutzung, in weiß: Gebäude ohne Wohnnutzung) und die Bevölkerungsdichte an (umso dünkler der Hintergrund, umso höher die Bevölkerungsdichte).  {% include image.html src="../../uploads/training materials/Scenario_buildings/building_layer.png"  %}
+1. Blenden Sie den Layer „Gebäude” aus der Kategorie „Gebäude und Flächennutzung” und den Layer „Bevölkerung” aus der Kategorie „Grundkarten Erreichbarkeit” ein. Diese zeigen alle vorhandenen Gebäude (in rot: Gebäude mit Wohnnutzung, in weiß: Gebäude ohne Wohnnutzung) und die Bevölkerungsdichte an (umso dunkler der Hintergrund, umso höher die Bevölkerungsdichte).  {% include image.html src="../../uploads/training materials/Scenario_buildings/building_layer.png"  %}
 
 2. Gehen Sie nun in das Fenster zur Szenarienentwicklung und erstellen ein neues Szenario.  {% include image.html src="../../uploads/training materials/Scenario_POIs/create_scenario.png" maxheight="200px" %}
 
