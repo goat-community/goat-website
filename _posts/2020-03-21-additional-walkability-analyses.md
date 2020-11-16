@@ -49,4 +49,4 @@ This implementation should be seen as first attempt to model the temporal and in
 This version for Hasenbergl-Lerchenau contains all new features and can be tested [here](https://hasenbergl.open-accessibility.org/). 
 
 
-Furthermore, the complete Thesis can be downloaded [here](../../../../../docs/TUM_Master_Thesis_Ulrike_Jehle.pdf).
+Furthermore, the complete Thesis can be downloaded [here](https://mediatum.ub.tum.de/604993?query=Ulrike+Jehle&show_id=1542813).
