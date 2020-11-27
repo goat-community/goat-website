@@ -89,9 +89,18 @@ Fill and prepare the goat-database:
 GOAT allows you to use pre-calculated matrices that are used to visualize the dynamic heatmaps. 
 In order to start the pre-calculation you currently have to start the script manually with the following command:
 
-`sudo docker exec -it goat-database python3 /opt/scripts/precalculate_heatmap.py` (run on your <span style="color:#FE9A2E">VM</span>)
+`sudo docker exec -it goat-database python3 /opt/setup_goat.py -p` (run on your <span style="color:#FE9A2E">VM</span>)
 
-Depending on the size of your study-area this can take some time. For Munich approx. 20 minutes.
+Depending on the size of your study-area this can take some time. For Munich approx. 10 minutes.
+
+Note you can also run both tasks at the same time:
+
+`sudo docker exec -it goat-database python3 /opt/setup_goat.py -n new_setup -p` (run on your <span style="color:#FE9A2E">VM</span>)
+
+There are more flags for the setup script, which you could explore by running:
+
+`sudo docker exec -it goat-database python3 /opt/setup_goat.py -h` 
+
 
 For more Docker commands checkout:
 
@@ -141,8 +150,6 @@ If all steps were successful you will be able to use GOAT by typing the followin
 
 Navigate to your GOAT-folder (in this folder there should be the docker-compose.yml file)
 
-
-
 <b>Stop<b>
 
 `sudo docker-compose down` (run on your <span style="color:#FE9A2E">VM</span>) (This will stop all running containers)
@@ -157,20 +164,14 @@ Navigate to your GOAT-folder (in this folder there should be the docker-compose.
 
 ##### 10. Backup Database
 
-Per default the database is configured to run every day a backup at 11 PM. In case your database is not running at that time, the backup will be produced once you start GOAT.
+This command will produce a database backup at `your-GOAT-directory/app/database/backups`
 
-In case you want an immediate backup you can simply run:
-
-`sudo docker exec -it goat-database-backup /bin/bash backups.sh` (run on your <span style="color:#FE9A2E">VM</span>)
+`sudo docker exec -it goat-database python3 /opt/setup_goat.py -b -n your-namespace`
 
 ##### 11. Update data
 
-In case you want to update all your data you can simply run the following from your project directory:
+In case you want to update all your data and pre-compute the heatmap again, you can simply run the following from your project directory:
 
-`sudo docker exec -it goat-database python3 /opt/setup_goat.py` (run on your <span style="color:#FE9A2E">VM</span>)
+`sudo docker exec -it goat-database python3 /opt/setup_goat.py -t new_setup -p` 
 
 <b><font color="red">!!Note this will drop your database and create a new database.!!</font><b>
-
-Furthermore you need to run the pre-calculation script again in order to be able to use the heatmaps:
-
-`sudo docker exec -it goat-database python3 /opt/data_preparation/Python/precalculate_grid_thematic.py` (run on your <span style="color:#FE9A2E">VM</span>)
