@@ -6,7 +6,7 @@ width: small
 
 #### Betreiber
 Technische Universität München  
-Professur für Siedlungsstruktur und Verkehrsplanung
+Lehrstuhl für Siedlungsstruktur und Verkehrsplanung
 
 #### Addresse
 Arcisstraße 21  
@@ -35,7 +35,7 @@ III. Informationen zur Datenverarbeitung
 Verantwortlicher Anbieter dieses Internetauftritts im datenschutzrechtlichen Sinne ist:
 
 Technische Universität München  
-Professur für Siedlungsstruktur und Verkehrsplanung
+Lehrstuhl für Siedlungsstruktur und Verkehrsplanung
 Arcisstraße 21  
 80333 München  
 Germany
