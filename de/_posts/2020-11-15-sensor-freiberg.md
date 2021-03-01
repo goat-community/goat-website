@@ -1,13 +1,12 @@
 ---
-title:  "Test innovativer Ansätze zur Datenerfassung "
+title: "Test innovativer Ansätze zur Datenerfassung "
 author: [ramirez, jehle, pajares]
 lang: de
 tags: [de]
 categories: [news]
 thumbnail: blog/sensor_freiberg/plots.png
 image: blog/sensor_freiberg/plots.png
-excerpt: Was verbindet GOAT mit einem Projekt für Lieferroboter? Die Nutzung derselben Infrastruktur!
-Wir haben eine prototypische Sensorbox eingesetzt, um die automatisierte Erhebung von Straßendaten zu erproben. 
+excerpt: Was verbindet GOAT mit einem Projekt für Lieferroboter? Die Nutzung derselben Infrastruktur! Wir haben eine prototypische Sensorbox eingesetzt, um die automatisierte Erhebung von Straßendaten zu erproben. 
 ---
 Stellen Sie sich einmal vor, Sie öffnen die Tür, um Ihre Essens- oder Amazon-Lieferung in Empfang zu nehmen und… Überraschung! Vor Ihnen steht der kleine Roboter Wall-E aus dem gleichnamigen Disney-Film! Wie bitte? Wall-E? Naja, nicht ganz. Aber eines Tages könnten tatsächlich Lieferungen von autonomen Robotern durchgeführt werden. Moment… waren autonome Fahrzeuge nicht etwas, das Autos, Zügen oder LKWs vorbehalten war? Ganz und gar nicht! Autonome Fahrzeuge gibt es in den unterschiedlichsten Größen. Doch wie jedes selbstfahrende Fahrzeug, stehen auch diese vor einer der größten Herausforderungen, um uneingeschränkt zu funktionieren: sie brauchen ein genaues Bild der Umgebung, in der sie sich bewegen. 
 Aus diesem Grund arbeitet das Team von Prof. Sebastian Zug am [Lehrstuhl für Softwaretechnologie und Robotik an der TU Bergakademie Freiberg](https://tu-freiberg.de/fakult1/inf/professuren/softwaretechnologie-und-robotik) am [Projekt “AK hoch 2“](https://www.bmvi.de/SharedDocs/DE/Artikel/DG/mfund-projekte/akhoch2.html). Das Projekt wird vom Bundesministerium für Verkehr und digitale Infrastruktur gefördert, um die Qualität und die Eigenschaften der Fahrradinfrastruktur zu erfassen. Das konkrete Ziel dieses Projektes ist insbesondere, die Parameter von Radwegen und Fußgängerwegen systematisch zu aggregieren. Dazu wurde ein mobiles Messsystem entwickelt, welches an jedem Fahrrad befestigt werden kann. Es wertet Bewegungssensoren aus und kombiniert diese Informationen mit Informationen über den Standort. Schließlich identifiziert eine KI-basierte Klassifizierung die Art der Oberfläche und die Oberflächenglätte und lokalisiert so Hindernisse. 

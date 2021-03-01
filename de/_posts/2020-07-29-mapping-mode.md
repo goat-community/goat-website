@@ -6,8 +6,7 @@ tags: [de]
 categories: [news]
 thumbnail: blog/mapping-mode/thumbnail.png
 image: blog/mapping-mode/thumbnail.png
-excerpt: Wir lieben Open-Source und Open-Data Projekte! Diese sind seit Beginn an das Herz und die Seele von GOAT. 
-Angetrieben durch diesen Enthusiasmus haben wir ein neues Feature in GOAT entwickelt, das Mapping Challenges anzeigt und Nutzer somit anregt, Datenlücken in OSM zu schließen.
+excerpt: Wir lieben Open-Source und Open-Data Projekte! Diese sind seit Beginn an das Herz und die Seele von GOAT. Angetrieben durch diesen Enthusiasmus haben wir ein neues Feature in GOAT entwickelt, das Mapping Challenges anzeigt und Nutzer somit anregt, Datenlücken in OSM zu schließen.
 ---
 Wir lieben Open-Source und Open-Data Projekte! Diese sind seit Beginn an das Herz und die Seele von GOAT. Aus diesem Grund ist die Architektur von GOAT komplett mit Open-Source-Software aufgebaut. Jeder kann etwas dazu beitragen, während der Betrieb und die Funktionalität von GOAT frei zugänglich bleibt. Deshalb ist GOAT hauptsächlich mit OpenStreetMap (OSM) gebaut. Die geographischen Daten von OSM sind eine unverzichtbare Datenquelle für zahlreiche Projekte weltweit. Das ist tausenden von Kartograf*Innen und Mitwirkenden zu verdanken. Wir sind bestrebt diese Daten nicht nur zu verwenden, sondern wollen darüber hinaus auch neue Daten für die Community beisteuern. Daher versuchen wir immer, wenn sich die Möglichkeit ergibt, lokal Daten zu erheben, wenn wir GOAT für ein bestimmtes Untersuchungsgebiet aufsetzen. Wir freuen uns sehr anzukündigen, dass wir einen vereinfachten Weg entwickelt haben, die OpenStreetMap Daten, die von GOAT genutzt werden, zu verbessern. Das geht jetzt direkt über die GOAT-Nutzeroberfläche. Diese neue Funktion heißt OSM-Mapping-Modus.
 
