@@ -1,5 +1,5 @@
 ---
-title:  "Mapping Parties - having fun and improving OSM data"
+title:  "Mapping Partys – ein spaßiger Weg um gemeinsam OSM-Daten zu verbessern"
 author: [jehle, hassine, pajares]
 lang: de
 tags: [de]
@@ -8,27 +8,27 @@ thumbnail: blog/mapping_party/thumbnail.png
 image: blog/mapping_party/image_background.png
 excerpt: The Chair of Urban Structure and Transport Planning is frequently organizing Mapping Parties with the motivation to actively improve the quality of OpenStreetMap (OSM), which is the most prominent example of an open, crowd-sourced geographic dataset.
 ---
-The Chair of Urban Structure and Transport Planning is frequently organizing Mapping Parties with the motivation to actively improve the quality of [OpenStreetMap (OSM)](https://www.openstreetmap.org/), which is the most prominent example of an open and crowd-sourced geographic dataset.
+Der Lehrstuhl für Siedlungsstruktur und Verkehrsplanung organisiert regelmäßig Mapping-Partys mit dem Ziel die Qualität von [OpenStreetMap (OSM)](https://www.openstreetmap.org/) aktiv zu verbessern. OSM ist das prominenteste Beispiel einer durch crowdsourcing erhobenen open-source Datenbank.
 
-OSM-data is widely used by planners, geographers, and developers, for different purposes. However, little contributions are seen by these groups to the OSM-project, mostly because of lack of knowledge how easy it is to contribute. We want to change that and encourage users, who have not contributed to OSM before, to become part of this vibrant community. Thanks to simple mobile apps and web tools everybody can easily contribute without prior knowledge to OSM.
+OSM-Daten werden von vielen StadtplanerInnen, GeographInnen und EntwicklerInnen zu unterschiedlichen Zwecken eingesetzt. Allerdings werden von diesen Gruppen selten Beiträge zur Verbesserung der OSM-Daten geleistet. Das liegt meist daran, dass das Wissen darüber fehlt, wie einfach es ist einen Beitrag zu leisten. Dem wollen wir entgegenwirken und möchten Anwendende, die bisher noch nichts zum OSM beigetragen haben, ermutigen, Teil dieser dynamischen Community zu werden. Dank einfach zu bedienender mobiler Apps und Web-Tools kann jede/r, auch ohne Vorkenntnisse von OSM, einen Beitrag leisten.
 
-The Mapping Parties always start with a short general introduction to OSM and the applications and tools used for the mapping process. Then the participants are assigned to small groups and different mapping areas. The mapping contest takes place in different parts of the city and runs for about two hours. Afterwards we have a get-together where the contributions are quantified and the winners announced. In previous years, this took place in person, in beautiful places like the English Garden in Munich.
+Die Mapping-Partys beginnen immer mit einer kurzen, allgemeinen Einführung in OSM und die Tools, die für den Mapping-Prozess genutzt werden. Die Teilnehmenden werden anschließend in kleinen Gruppen aufgeteilt und bekommen unterschiedliche Mapping-Aufgaben zugewiesen. Der Mapping-Wettbewerb findet in unterschiedlichen Teilen der Stadt statt und dauert ungefähr zwei Stunden. Im Anschluss werden die Beiträge ausgewertet und die Gewinner*Innen bei einem Get-Together bekannt gegeben. In den vergangenen Jahren haben wir hierzu schöne Locations, wie dem Englischen Garten in München, ausgewählt.
 
-{% include image.html src="blog/mapping_party/previous_mapping_parties.jpg" alt="insights into previous Mapping Parties" %} 
-<i>Figure 1. Previous Mapping Parties, having fun with the community</i>
+{% include image.html src="blog/mapping_party/previous_mapping_parties.jpg"  %} 
+<i>Abbildung 1. Vorherige Mapping-Partys: Spaß haben mit der Community</i>
 
-Even this year is not an exception, we organized a very successful Mapping Party on the 24th of September. Due to the current pandemic regulations, we mapped remotely from home, using the [GOAT Mapping Mode](https://www.open-accessibility.org/docs/mapping_mode/) to identify objects with missing attributes and extract the relevant information from aerial images and [Mapillary](https://www.mapillary.com) pictures, or in small groups of 2-3 people in the field with smartphone apps such as [Go Map!!](https://apps.apple.com/de/app/go-map/id592990211) and [StreetComplete](https://play.google.com/store/apps/details?id=de.westnordost.streetcomplete&hl=de&gl=US). The introduction and get-together took place via zoom. 
+Auch dieses Jahr stellte keine Ausnahme dar und wir haben am 24. September eine sehr erfolgreiche Mapping-Party organisiert. Aufgrund der vorherrschenden Pandemie-Regeln haben wir von Zuhause aus gemappt. Dabei haben wir den  [GOAT Mapping-Modus](https://www.open-accessibility.org/docs/mapping_mode/) genutzt, um Objekte mit fehlenden Attributdaten zu identifizieren. Die relevanten Informationen haben wir Luftaufnahmen und [Mapillary](https://www.mapillary.com) Bildern entnehmen können. Einige haben sich auch in Gruppen von zwei bis drei Personen vor Ort getroffen und haben die Daten mit Smartphone-Apps wie [Go Map!!](https://apps.apple.com/de/app/go-map/id592990211) und [StreetComplete](https://play.google.com/store/apps/details?id=de.westnordost.streetcomplete&hl=de&gl=US). Die Einführung und das Get-Together fanden dieses Mal via Zoom statt.
 
-{% include image.html src="blog/mapping_party/MP_2020.png" alt="Screenshot of the Zoom Session" %} 
-<i>Figure 2. Mapping Party in times of Covid-19, still fun, but at a safe distance!</i>
+{% include image.html src="blog/mapping_party/MP_2020.png" %} 
+<i>Abbildung 2. Mapping-Party in Zeiten von Covid-19. Es macht immer noch Spaß, aber wir bewahren eine sichere Entfernung!</i>
 
-Over 25 participants from different organizations, such as [Technical University of Munich](https://www.tum.de/), [Technical University Bergakademie Freiberg](https://tu-freiberg.de/en/university), [MunichWays](https://www.munichways.com/) and the [OSM-Community](https://wiki.openstreetmap.org/wiki/Join_the_community) were part of this event. Together we  edited over 1,000 objects (e.g. cycleways, Points-of-Interest, buildings) and 1,700 attributes in 2 hours of mapping. As the focus on this Mapping Party was to improve the data of the cycleways and Points-of-Interests, ‘surface’, ‘opening_hours’ and ‘segregated’ were some of the mostly mapped attributes. 
+An diesem Event waren über 25 Teilnehmende aus unterschiedlichen Organisationen, wie der [Technischen Universität München](https://www.tum.de/), der [Technischen Universität Bergakademie Freiberg](https://tu-freiberg.de/en/university), [MunichWays](https://www.munichways.com/) sowie der [OSM-Community](https://wiki.openstreetmap.org/wiki/Join_the_community) beteiligt. Gemeinsam haben wir Daten zu über 1,000 Objekten (z.B. Radwege, POIs, Gebäude) und 1,700 Attribute in zwei Stunden Mapping erfasst. Da der Fokus dieser Mapping-Party auf der Verbesserung der Radwege- und POI-Daten lag, waren ‘surface’, ‘opening_hours’ and ‘segregated’ die am meisten hinzugefügten Attribute.
 
 
-{% include image.html src="blog/mapping_party/improvements.png" alt="Mapped attributes during the mapping party" %} 
-<i>Figure 3. As a group, we edited over 1,000 objects in 2 hours of mapping </i>
+{% include image.html src="blog/mapping_party/improvements.png" %} 
+<i>Abbildung 3. Als Gruppe haben wir über 1,000 Objekte in zwei Stunden erfasst. </i>
 
-Follow us on [LinkedIn](https://www.linkedin.com/company/goat-tool/) or [Twitter](https://twitter.com/GoatTool) to hear more about upcoming mapping events. 
+Folgen Sie uns auf [LinkedIn](https://www.linkedin.com/company/goat-tool/) oder [Twitter](https://twitter.com/GoatTool), um keine zukünftigen Mapping-Events zu verpassen. 
 
 
 
