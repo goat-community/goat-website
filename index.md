@@ -2,11 +2,11 @@
 lang: en
 layout: home
 width: full
-alert:
-  content: "[Help us to improve GOAT by participating in this survey](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=en)"
+#alert:
+  #content: "[Help us to improve GOAT by participating in this survey](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=en)"
 
 header:
-  background_color: "rgb(228, 255, 224)"
+  background_color: "rgb(190, 237, 220)"
   header_size: large
   heading_size: small
   title: Dynamic accessibility analysis for sustainable planning

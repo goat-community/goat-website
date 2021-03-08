@@ -1,6 +1,6 @@
 ---
 permalink: /de/testcycles/
-title:  "Gaining experiences from practitioners"
+title:  "Einbezug von Expertenmeinungen"
 author: [pajares, jehle, hassine]
 lang: de
 tags: [de]
@@ -9,31 +9,31 @@ thumbnail: blog/testcycles/Testzyklus.png
 image: blog/testcycles/Testzyklus.png
 ---
 
-By end of this year we aim to launch version GOAT1.0! To achieve a high usability and usefulness, GOAT is currently extensively tested by a group of experts in the fields of transport and urban planning. The funding provided by [mFund](https://www.bmvi.de/DE/Themen/Digitales/mFund/Ueberblick/ueberblick.html) is allowing to organize different workshops with planners from the municipalities Fürstenfeldbruck, Freising and Munich.
+Unser Ziel ist es bis Ende dieses Jahres die Version GOAT1.0 zu veröffentlichen! Um eine einfache Bedienbarkeit und einen hohen Nutzen zu erreichen, wird GOAT momentan von einer ExpertInnengruppe aus den Bereichen Verkehr und Stadtplanung ausgiebig getestet. Die [mFund-Förderung](https://www.bmvi.de/DE/Themen/Digitales/mFund/Ueberblick/ueberblick.html) ermöglicht uns verschiedene Workshops mit Planern aus den Kommunen Fürstenfeldbruck, Freising und München zu organisieren.
 
-The most extensive series of workshops was conducted with practitioners of the municipality of Fürstenfeldbruck. In three test cycles extensive knowledge and experience from transport and land-use planners, GIS-experts but also from the perspective of the social service department were feed into the development process of GOAT.
+Die intensivste Reihe von Workshops wurde mit Anwendenden aus der Kommune Fürstenfeldbruck durchgeführt. In drei Workshops wurden Erkenntnisse und Erfahrungen aus dem Bereich der Verkehrs- und Stadtplanung und GIS gesammelt. All diese Erkenntnisse und Erfahrungen flossen anschließend in den Entwicklungsprozess von GOAT ein. 
 
-At the first workshop, the participants got a detailed introduction into the tool GOAT and its possible extensions and applications. Afterwards, the participants had one hour to try out the tool. The TUM project team observed the use of the web tool and documented the suggestions for improvement. Feedback was elicited through a round table discussion and an [online survey](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=en) that we kindly invite all GOAT followers to answer. The participants confirmed the usefulness and the potential of GOAT in tackling different planning questions in a short amount of time. They also conceived that it is well suited for visualizing current planning issues, which can be used as an argumentation aid.
+Beim ersten Workshop erhielten die Teilnehmenden eine detaillierte Einführung in GOAT und dessen Funktionen. Anschließend konnten die Teilnehmenden das Werkzeug selbst ausprobieren und erhielten dafür eine Stunde Zeit. Das TUM-Projektteam beobachtete die Nutzung des Web-Tools und dokumentierte die geäußerten Verbesserungsvorschläge. Feedback von Teilnehmenden wurde bei einer offenen Gesprächsrunde eingeholt sowie durch eine [online Umfrage](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=en). Wir möchten an dieser Stelle auch alle GOAT Follower dazu einladen, an dieser online Umfrage teilzunehmen. Die Workshop-Teilnehmenden bestätigten uns durch ihr Feedback den Nutzen und das Potenzial von GOAT um verschiedene Planungsfragen mit geringem Zeitaufwand zu bearbeiten. Sie fanden auch, dass das Tool gut geeignet sei, um aktuelle Planungsanliegen zu visualisieren und als Argumentationshilfe  zu dienen.
 
-{% include image.html src="blog/testcycles/Testzyklus.png" alt="Goat workshop in the municipality of Fürstenfeldruck" %}
+{% include image.html src="blog/testcycles/Testzyklus.png" alt="GOAT workshop in Fürstenfeldruck" %}
 
-The practical experience of each workshop is incorporated into the development process. After each workshop, further development perspectives, suggestions and user’s feedback are evaluated and continuously updated and made freely available on the project website, so that an improved GOAT version is provided at each test cycle.
+Die praktische Erfahrung jedes Workshops fließt in den Entwicklungsprozess von GOAT ein. Nach jedem Workshop werden die genannten Entwicklungsperspektiven, Anregungen und das Feedback der NutzerInnen ausgewertet und schrittweise umgesetzt. Die neu entwickelten und angepassten Features werden auf der Projektwebsite frei zugänglich gemacht. So wird den Teilnehmenden bei jedem Testzyklus eine verbesserte GOAT-Version zur Verfügung gestellt.
 
-The second workshop started with a short presentation on the new version of GOAT and the focus was laid on the practical use of the tool by the workshop participants. For this purpose, tutorials were provided in the form of worksheets that allowed participants to test the new version of GOAT independently and to assess its usefulness and user-friendliness based on local planning issues. For this workshop, [a version of Fürstenfeldbruck](https://ffb.open-accessibility.org/) was provided, which was developed after the first workshop and contains all recent features such as cycling routing and scenarios on land-use changes. The GOAT-team helped with questions and observed and documented any difficulties that arose.
+Der zweite Workshop begann mit einer kurzen Präsentation der neuen Version von GOAT. Der Fokus dieses Workshops wurde auf die praktische Nutzung des Werkzeugs durch die Workshop-Teilnehmenden gelegt. Dazu wurden Tutorials in Form von Arbeitsblättern bereitgestellt. So konnten die Teilnehmenden die neue Version von GOAT eigenständig testen und den Nutzen und Benutzerfreundlichkeit des Tools anhand lokaler Planungsfragen bewerten. Bei diesem Workshop wurde die neue [Version für Fürstenfeldbruck](https://ffb.open-accessibility.org/) zur Verfügung gestellt, die nach dem ersten Workshop entwickelt wurde. Sie enthält alle aktuellen Funktionen wie das Fahrradrouting und Szenarien zu Änderungen von Flächennutzung. Das GOAT-Team half bei Fragen und beobachtete und dokumentierte auftretende Schwierigkeiten.
 
-The third workshop was done virtually, due to the current situation with COVID-19. This test cycle was similar to the second one. It started with a presentation on the new features and improvements of GOAT, which was followed by practical use of the tool by the participants. For this workshop, numerous new layers such as accidents, noise levels, protected landscape areas, and buildings and land use were presented. Furthermore, the new feature for the integration of Mapillary imagery was used and well received.
+Der dritte Workshop wurde aufgrund der aktuellen COVID-19-Situation virtuell durchgeführt. Abgesehen davon, verlief dieser Workshop ähnlich wie der zweite. Zu Beginn wurden die neuen Funktionen und Verbesserungen von GOAT vorgestellt, gefolgt von der praktischen Nutzung des Tools durch die Teilnehmenden. Bei diesem Workshop wurden zahlreiche neu implementierte Datensätze zu Themen wie Unfälle, Lärmpegel, Landschaftsschutzgebiete sowie Gebäude- und Flächennutzung vorgestellt. Darüber hinaus konnten die Teilnehmenden die neue Funktion zur Integration von Bildmaterial aus Mapillary ausprobieren, die bei ihnen gut ankam. 
 
-The participants suggested many good ideas for improvements. Among them:
+Die Teilnehmer hatten viele gute Verbesserungsvorschläge. Unter anderem wurden folgende Vorschläge gemacht: 
 
-- add additional POIs, such as children’s playgrounds and nurseries to GOAT
-- consider the accessibility to green areas and parks
-- include information about nature reserves, etc. to get an better idea where for example a new bicycle bridge can be positioned
-- improve the printing feature
-- provide additional data export options
-- improve usability of the scenario building by providing a clearer workflow
-- consider different gradients for the calculation of accessibility with a wheelchair
-- provide the possibility to add new buildings as a new scenario
-- differentiation between different types of wheelchair (e.g. electric and non-electric)
-- enable storage and export of the developed scenarios
+- Zusätzliche POIs in GOAT einbeziehen, wie z.B. Kinderspielplätze und Kinderkrippen.
+- Die Erreichbarkeit von Grünflächen und Parks berücksichtigen.
+- Informationen über Naturschutzgebiete usw. integrieren, um sich ein besseres Bild davon zu machen, wo z.B. eine neue Fahrradbrücke gebaut werden kann.
+- Verbesserung der Druckfunktion.
+- Zusätzliche Optionen für den Datenexport bereitstellen.
+- Die Bedienbarkeit der Szenario-Erstellung verbessern durch die Bereitstellung eines klareren Workflows.
+- Berücksichtigung der Steigungen für die Berechnung der Erreichbarkeit mit einem Rollstuhl. 
+- Die Möglichkeit bieten, weitere Gebäude als neues Szenario hinzuzufügen.
+- Zwischen verschiedenen Rollstuhltypen (z.B. elektrisch und nicht elektrisch) unterscheiden.
+- Speicherung und Export der entwickelten Szenarien ermöglichen.
 
-The suggestions for improvements were documented and will be, wherever possible, implemented in the further development process. This first series of workshops will be followed by one larger application workshop in each of the municipalities (Fürstenfeldbruck, Freising and Munich) this summer. The goal of these workshops is to use GOAT for relevant planning questions (e.g. access to schools in a new neighborhood), that are currently discussed in the particular context. A final synthesis workshop with participants from all municipalities and further experts will be organized in autumn. We are already looking forward to this!
+Das GOAT-Team hat die Verbesserungsvorschläge dokumentiert. Diese werden, dort wo sich eine Möglichkeit bietet, im weiteren Entwicklungsprozess umgesetzt. Auf diese erste Workshopreihe folgt in diesem Sommer in jeder Kommune (Fürstenfeldbruck, Freising und München) jeweils ein größerer Anwendungsworkshop. Das Ziel dieser Workshops ist es, GOAT für relevante Planungsfragen (z.B. Zugang zu Schulen in einem neuen Stadtteil), die aktuell im jeweiligen lokalen Kontext diskutiert werden, zu nutzen. Ein abschließender Workshop mit Teilnehmenden aus allen Kommunen und weiteren ExpertenInnen findet im Herbst statt. Darauf freuen wir uns schon!

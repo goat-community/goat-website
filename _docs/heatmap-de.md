@@ -1,5 +1,5 @@
 ---
-title: Walkability Heatmap
+title: Heatmap - Local Accessibility
 permalink: /de/docs/heatmap/
 lang: de
 ---

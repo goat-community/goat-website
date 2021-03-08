@@ -2,11 +2,11 @@
 lang: de
 layout: home
 width: full
-alert:
-  content: "[Nehmen Sie an dieser Umfrage teil und helfen Sie uns GOAT zu verbessern](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=de)"
+#alert:
+  #content: "[Nehmen Sie an dieser Umfrage teil und helfen Sie uns GOAT zu verbessern](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=de)"
 
 header:
-  background_color: "rgb(228, 255, 224)"
+  background_color: "rgb(190, 237, 220)"
   header_size: large
   heading_size: small
   title: Dynamische Erreichbarkeitsanalysen für eine nachhaltige und effektive Planung
@@ -29,7 +29,7 @@ goat:
 what:
   title: Was ist GOAT?
   image: heatmap.png
-  description: GOAT steht für Geo Open Accessibility Tool. Als Webtool kann GOAT eingesetzt werden, um interaktiv Erreichbarkeiten und die Qualität für den Fuß- und Radverkehr aufzuzeigen. Gegenwärtig wird das Tool an der [Professur für Siedlungsstruktur und Verkehrsplanung - TUM](https://www.bgu.tum.de/sv/startseite/) entwickelt. Es kommen regelmäßig Neuerungen und Verbesserungen hinzu. Verschiedene Version von GOAT können [hier](/versions) getestet werden. 
+  description: GOAT steht für Geo Open Accessibility Tool. Als Webtool kann GOAT eingesetzt werden, um interaktiv Erreichbarkeiten und die Qualität für den Fuß- und Radverkehr aufzuzeigen. Gegenwärtig wird das Tool am [Lehrstuhl für Siedlungsstruktur und Verkehrsplanung - TUM](https://www.bgu.tum.de/sv/startseite/) entwickelt. Es kommen regelmäßig Neuerungen und Verbesserungen hinzu. Verschiedene Version von GOAT können [hier](/versions) getestet werden. 
 
 why:
   title: Warum GOAT?

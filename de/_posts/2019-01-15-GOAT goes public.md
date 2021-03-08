@@ -1,6 +1,6 @@
 ---
-permalink: /de/development-path-geo-open-accessibility-tool/
-title:  "GOAT<sub>beta</sub> goes public!"
+permalink: /de/goat-goes-public/
+title:  "GOAT<sub>beta</sub> ist online!"
 author: [pajares]
 lang: de
 tags: [de]
@@ -8,26 +8,26 @@ categories: [news]
 thumbnail: blog/goat_goes_public/isochrone.jpg
 image: blog/goat_goes_public/isochrone.jpg
 ---
-I am happy to announce that time has come for the first official release of Geo Open Accessibility Tool (GOAT). This first version is labelled GOAT.
+Ich freue mich, den ersten Release des Geo Open Accessibility Tools (GOAT) zu verkünden. In dieser ersten Version werden bereits erste Hauptfunktionen gebündelt, es werden aber noch viele weitere folgen. 
 
-The people who have followed the GOAT project know that the development started way back with my Master thesis one and half years ago. Meanwhile the development became an important part of the PhD that I want to start taking soon and my daily work at the [Chair for Urban Structure and Transport Planning at the Technical University of Munich](https://www.sv.bgu.tum.de).
+Diejenigen, die das GOAT-Projekt bereits verfolgt haben, wissen, dass dessen Entwicklung mit meiner Masterarbeit vor über anderthalb Jahren begann. In der Zwischenzeit ist die Entwicklung von GOAT zu einem wichtigen Teil meiner Doktorarbeit und meiner täglichen Arbeit am [Lehrstuhl für Siedlungsstruktur und Verkehrsplanung an der Technischen Universität München](https://www.sv.bgu.tum.de) geworden.
 
-It has taken quite some reasonable amount of time to release this first experimental version of GOAT that can be freely and openly shared with you. I would like to thank early adopters of, my colleagues and students, and especially [Majk Shkurti](https://github.com/majkshkurti) for helping me out when my front-end skills came to its limits.
-This first release of GOAT is an initial step since GOAT still has numerous work in progress. This is to say that there will be frequent enhancements and new features in the coming weeks, months and years.
-This site should not only serve the purpose of hosting the GOAT application but also play a vital role in acting as a contact point for the conceptual basis of GOAT and its [documentation](/docs/about). Currently, there is very limited documentation at this site but frequents additions will be done!
+Es hat durchaus seine Zeit gedauert bis zur Veröffentlichung dieser ersten experimentellen Version von GOAT, die kostenlos ist und gerne öffentlich geteilt werden kann. In diesem Rahmen möchte ich mich bei den ersten GOAT-Anwendern sowie meinen KollegInnen und Studierenden bedanken. Ein spezieller Dank geht an [Majk Shkurti](https://github.com/majkshkurti), der mir immer zur Seite stand, wenn meine Front-End-Fähigkeiten an ihre Grenzen gestoßen sind. 
+Diese Veröffentlichung ist aber lediglich der erste Schritt, da noch viele weitere Arbeiten anstehen. In den nächsten Wochen, Monaten und Jahren werden regelmäßig Erweiterungen und neue Funktionen folgen.
+Diese Webseite soll nicht nur den Zweck erfüllen, die GOAT-Applikation zu hosten, sie soll auch als Anlaufstelle für die wissenschaftlichen Hintergründe  von GOAT und dessen [Dokumentation](/docs/about) dienen. Momentan ist die Dokumentation auf dieser Seite noch recht limitiert, es werden aber regelmäßig neue Inhalte folgen!
 
 
-As first guidance the following videos shall help to understand the core features of GOAT.
+Die nachfolgenden Videos dienen als erste Orientierung und helfen dabei, die Hauptfunktionen von GOAT besser zu verstehen.
 
-This first video shows how to calculate walking isochrones at different places and compare their results. It also shows you how to export your calculation into common formats like GeoJSON or shapefiles.
+Das erste Video zeigt, wie die Berechnung von Reisezeitisochronen für Zufußgehende an unterschiedlichen Standorten funktioniert und wie ihre Resultate verglichen werden können. Es zeigt auch, wie die Berechnung in Formaten wie GeoJSON oder Shapefiles exportiert werden kann.
 
   <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/311547681" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen data-uk-responsive width="1920" height="1080"></iframe>
 
-The next video show the interactive network modifications feature in action and gives the user an idea how this feature can be used to efficiently develop scenarios.
+Das nächste Video zeigt, wie das Wegenetz interaktiv modifiziert und somit eigene Szenarien entwickelt werden können.
 
   <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/311550100" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen data-uk-responsive width="1920" height="1080"></iframe>
 
-The third video is introducing the dynamic heatmap and shows how walking accessibility can be analyzed and compared in different neighborhoods.
+Das dritte Video stellt die dynamische Heatmap   vor und zeigt, wie fußläufige Erreichbarkeit flächenhaft analysiert werden kann und dadurch ein einfacher Vergleich unterschiedlicher Nachbarschaften durchgeführt werden kann.  
 
   <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/311549509" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen data-uk-responsive width="1920" height="1080"></iframe>
 
