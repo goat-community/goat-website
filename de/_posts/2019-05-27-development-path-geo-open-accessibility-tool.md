@@ -1,6 +1,6 @@
 ---
 permalink: /de/development-path-geo-open-accessibility-tool/
-title:  "Development path of GOAT"
+title:  "Der Entwicklungspfad von GOAT"
 author: [pajares]
 lang: de
 tags: [de]
@@ -8,70 +8,68 @@ thumbnail: blog/development_path/thumbnail.png
 image: blog/development_path/thumbnail.png
 ---
 
-Geo Open Accessibility Tool (GOAT) is by far not where it should be. Apart from the on-going professionalization which is seen as crucial to provide a truly useful and stable accessibility instrument, additional features will be implemented on a regular basis.
+Das Geo Open Accessibility Tool (GOAT) ist aktuell noch nicht dort, wo wir einmal hin möchten. Neben der fortwährenden Professionalisierung, die unabdingbar für ein wirklich nützliches und stabiles Erreichbarkeitsinstrument ist, werden in regelmäßigen Abständen weitere Funktionen implementiert.  
 
-The main objective we have been focusing on in the past months was making the interactive network modification and the setup process better. Little time was spent for coming up with new features. However, there are some new envisioned and edge cutting features which will bring GOAT to the status where the first version (GOAT 1.0) will be released.
+Das Hauptanliegen, worauf wir uns in den vergangenen Monaten konzentriert haben, war es, die interaktive Netzwerkmodifikation und den Set-up Prozess zu verbessern. Dabei wurde bisher wenig Zeit investiert, um neue Features zu implementieren. Dennoch gibt es einige neue, innovative Funktionen, die bereits angedacht sind. Diese werden GOAT zu dem Status verhelfen, in dem die erste Version (GOAT 1.0) veröffentlicht wird. 
 
-So far, GOAT is still very much a personal project as funding for this first stable release has not been secured. Consequently, the date for the first ground-breaking release of GOAT for production purposes remains undefined. Our current estimated time is between 1 and 2 years. Nonetheless I feel it’s important to communicate the potential features that GOAT will have in future and further show directions which this instrument will take. In the course of development, some GOAT features will be added and others probably removed. 
+GOAT ist bislang in jeder Hinsicht noch ein persönliches Projekt, da die Finanzierung für die erste Veröffentlichung noch nicht gesichert ist. Folglich bleibt noch undefiniert, wann dieser bahnbrechende Release 1.0 stattfinden und GOAT somit vermarktet werden kann. Wir schätzen, dass dies in ein bis zwei Jahren umgesetzt wird. Ich finde es dennoch wichtig, die potenziellen künftigen Funktionen von GOAT zu kommunizieren und aufzuzeigen, welche Wege dieses Instrument einschlagen wird. Einige GOAT-Funktionen werden im Laufe der Entwicklung hinzukommen, während andere womöglich entfernt werden. 
 
-The following table gives a glimpse on the fields of development, it has to be underlined that this list is not complete, especially smaller features and features related to the user experience are not listed.
+Die folgende Tabelle gewährt einen Einblick in die Entwicklungsfelder. Dabei muss betont werden, dass sie nicht vollständig ist und vor allem kleinere Funktionen sowie Funktionen, die das Nutzererlebnis betreffen, nicht aufgeführt sind.
 
 <table class="table table-striped table-hover ">
   <thead>
     <tr>
-      <th>Feature</th>
-      <th>Description</th>
-      <th>Open tasks</th>
+      <th>Funktion</th>
+      <th>Beschreibung</th>
+      <th>Offene Aufgaben</th>
     </tr>
   </thead>
   <tbody>
     <tr class="success">
-      <td><b>Routing performance</b></td>
-      <td>The pgRouting library shines with its flexibility, though this comes with 
-      the cost of relatively long query times for the calculation of the shortest path and the isochrones. New features such as multi-isochrones rely on more efficient calculations. Although pgRouting is not tuned per default for high-performance, with good network preparation and improved SQL-queries the performance can be boosted. It will also be examined if database clusters or the calculation on multiple cores can improve the performance.</td>
-      <td>At the moment work already started to improve the performance. However with cycling as new mode and the implementation of new accessibility indicators, this will be an ongoing challenge.</td>
+      <td><b>Routing-Performance</b></td>
+      <td>Die pgRouting Bibliothek glänzt mit ihrer Flexibilität, wobei dies mit einer relativ langen Abfragezeit des kürzesten Weges und der Isochronen einher geht. Neue Funktionen wie Multi-Isochronen sind aber auf effizientere Kalkulationen angewiesen. Obwohl pgRouting nicht standardmäßig auf High-Performance eingestellt ist, kann die Performance gesteigert werden: durch eine gute Netzwerkvorbereitung sowie verbesserte SQL-Abfrage. Es wird ebenfalls geprüft, ob Datenbank-Cluster oder die Berechnung auf unterschiedlichen Prozessorkernen die Performance steigern kann.</td>
+      <td>Die Arbeit zur Steigerung der Performance hat bereits begonnen. Allerdings wird es mit dem neuen Modus für Radfahrer und der Implementierung von neuen Zugänglichkeitsindikatoren eine fortwährende Challenge bleiben.</td>
     </tr>
     <tr class="success">
-      <td><b>Calculation multi-isochrones</b></td>
-      <td>Currently the user has only the possibility to calculate one isochrone by clicking on the map. A new feature shall allow for the calculation at several origins. As origin certain amenities can be selected and the isochrones will be visualized all at once. This could allow to answer questions like: What is the share of residents having access to schools in 10 minutes?</td>
-      <td>This new feature goes hand in hand with the targeted performance boost of the pgRouting functions. SQL-functionality is also already partly finished, only the implementation into the front-end was not started yet.</td>
+      <td><b>Berechnung von Multi-Isochronen</b></td>
+      <td>Der Nutzer hat zurzeit lediglich die Möglichkeit, eine einzige Isochrone zu berechnen, indem er auf die Karte klickt. Eine neue Funktion soll die gleichzeitige Berechnung von unterschiedlichen Ausgangspunkten aus ermöglichen. Als Startpunkt können bestimmte Einrichtungen ausgewählt und die Isochronen alle gleichzeitig dargestellt werden. Das könnte bestimmte Fragen beantworten, wie: wie hoch ist der Anteil der Anwohner, die innerhalb von 10 Gehminuten eine Schule erreichen können?</td>
+      <td>Diese neue Funktion geht Hand in Hand mit der anvisierten Leistungssteigerung der pgRouting-Funktionen. Die SQL-Funktionalität ist ebenfalls zum Teil bereits beendet. Lediglich die Implementierung in das Front-End hat noch nicht begonnen.</td>
     </tr>
     <tr class="success">
-      <td><b>Modification POIs</b></td>
-      <td>This feature can be seen as first step to allow users to model the effect of land-use changes. It is targeted to develop an experimental feature that let's the user draw, modify and delete POIs. As with the interactive network changes the user will be able to perform an accessibility analysis considering these land-use changes. Interesting scenarios could be calculated like: How does walking accessibility change if amenities are better distributed in space?</td>
-      <td>At the moment little interaction with POIs is possible, therefore first some features (e.g. POIs clustering) have to be implemented that allow a more interactive and visually appealing way to interact with the POIs layer.</td>
+      <td><b>Modifikation von POIs</b></td>
+      <td>Diese Funktion kann als erster Schritt angesehen werden, der es Nutzern erlaubt, die Auswirkungen von Flächennutzungsänderungen zu modellieren. Diese experimentelle Funktion soll es Nutzern ermöglichen, POIs zu zeichnen, zu modifizieren oder zu löschen. Durch die interaktive Netzwerkveränderung kann der Nutzer Erreichbarkeitsanalysen durchführen und dabei die Flächennutzungsänderungen einfließen lassen. Als interessantes Szenario könnten u.a. folgendes analysiert werden: Wie verändert sich die fußläufige Erreichbarkeit bei einer besseren räumlichen Verteilung der Einrichtungen?</td>
+      <td>Momentan ist nur wenig Interaktion mit den POIs möglich. Daher müssen zunächst einige Funktionen (bspw. das Clustern von Zielen) implementiert werden, die eine interaktivere und visuell ansprechendere Art der Interaktion mit den Zielen erlauben.</td>
     </tr>
     <tr class="warning">
-      <td><b>Individualization walking</b></td>
-      <td>Modelling better the individual component of accessibility is one of the core aims of GOAT. There is especially seen the need to customize the routing functionality to better model the challenges mobility-impaired people face on a daily basis. Accordingly it should be possible to model accessibility also for the elderly and disabled people. In addition the routing functionality will be refined to better model time losses at intersections, inclines and other barriers.</td>
-      <td>From the theoretical side there was already done significant effort (e.g. excellent bachelor thesis at TUM). Though further empiric findings need to be done to better understand how especially barriers influence the walking speed of different person groups.</td>
+      <td><b>Individuelle Routing-Profile</b></td>
+      <td>ie Verbesserung der Modellierung der individuellen Erreichbarkeitskomponente ist eines der Hauptziele von GOAT. Hier besteht die Notwendigkeit, die Routen-Funktionalität individuell anzupassen, um die Schwierigkeiten, die mobilitätseingeschränkte Menschen täglich haben, besser abzubilden und somit die  Barrierefreiheit einzubeziehen. Zusätzlich soll die Routing-Funktionalität dahingehend verfeinert werden, Zeitverlust bei Kreuzungen, Steigungen oder andere Barrieren abzubilden.</td>
+      <td>Für die theoretische Seite ist bereits eine signifikante Vorarbeit geleistet worden (bspw. im Rahmen einer exzellenten Bachelorarbeit an der TUM). Wobei noch weitere empirische Erkenntnisse zur Beeinflussung der Gehgeschwindigkeit unterschiedlicher Personengruppen erlangt werden müssen, besonders in Bezug auf die Beeinflussung durch Barrieren.</td>
     </tr>
     <tr class="warning">
-      <td><b>New mode cycling</b></td>
-      <td>Modelling cycling is one of the most demanded features. However the challenge to have a realistic routing functionality has to be underlined. It is targeted to model cycling for different user groups and conditions. Groundwork in this aspect was done in a great study project at TUM. The results from the latter will be further refined and integrated into the overall architecture.</td>
-      <td>Part of the back-end functionality is already finished, but the front-end and especially the integration into the interactive network modification functionality still require significant resources. Nevertheless, an experimental version of the feature will be released soon.</td>
+      <td><b>Neuer Routing-Modus: Radverkehr</b></td>
+      <td>Die Modellierung für den Fahrradverkehr ist eine der an den häufigsten gewünschten Funktionen. Die Herausforderung hierbei ist es, eine realistische Routing-Funktionalität zu haben. Das Ziel ist es, Radfahren für unterschiedliche Nutzergruppen und Bedingungen abzubilden. Die Vorarbeit dazu wurde bereits im Rahmen eines sehr guten Studienprojekts an der TUM geleistet. Dessen Ergebnisse werden weiter verfeinert und in die Gesamtarchitektur integriert.  </td>
+      <td>Ein Teil der Backend-Funktionalität ist bereits vollendet, aber das Frontend und vor allem die Integration in die interaktive Netzwerk-Modifikationsfunktionalität erfordert noch weitere signifikante Ressourcen. Dennoch wird eine experimentelle Version dieser Funktion bald veröffentlicht werden.</td>
     </tr>
     <tr class="danger">
-      <td><b>Dynamic recalculation heatmap</b></td>
-      <td>The used heatmap builds on precalculated travel times. While this is great for performance it comes with the costs that the calculation is not dynamic. With the current architecture and resources a dynamic recalculation is not possible in an acceptable query time. There have to be found ways to allow also a dynamic recalculation for this indicator.</td>
-      <td>A precondition for this feature is a significant performance boost of the routing functions. After this has been achieved the heatmap functionality has to be further refined and adapted to allow scenario building.</td>
+      <td><b>Dynamische Neuberechnung der Heatmap</b></td>
+      <td>Die verwendete Heatmap basiert auf vorberechneten Reisezeiten. Das ist super für die Performance, geht allerdings auf Kosten der Berechnung, die nicht dynamisch ist. Mit der gegebenen Architektur und den vorhandenen Ressourcen ist eine dynamische Neuberechnung nicht in einer annehmbaren Rechenzeit möglich. Es müssen Wege gefunden werden, auch eine dynamische Neuberechnung für diesen Indikator zu ermöglichen.</td>
+      <td>Für diese Funktion wird eine signifikante Leistungssteigerung der Routing-Funktionen vorausgesetzt. Nachdem das erreicht wurde, muss die Heatmap-Funktionalität weiter verfeinert und dahingehend angepasst werden, dass die Abbildung von Szenarien ermöglicht werden.</td>
     </tr>
     <tr class="danger">
-      <td><b>Full land-use modification</b></td>
-      <td>It is targeted to give the user the ability to fully manipulate land-use data, besides adding new POIs the user should be able to upload own building data, allocate population and jobs (and a lot more). This feature is seen as essential part to use GOAT as tool to help in developing urban development plans.</td>
-      <td>The described feature requires significant effort as in the front-end and the back-end extensive development have to be done. In addition a very high user experience are the precondition for the feature.</td>
+      <td><b>Komplette Flächennutzungsänderung </b></td>
+      <td>Ziel dieser Funktion ist es, den Nutzern die Möglichkeit zu geben, die Flächennutzungsdaten komplett verändern zu können. Der Nutzer soll nicht nur neue POIs hinzufügen können, sondern in der Lage sein, eigene Gebäudedaten hochzuladen, Einwohner und Jobs zuzuordnen und vieles mehr. Diese Funktion wird als ein essenzieller Teil betrachtet, um GOAT als Werkzeug zur Entwicklung von Stadtentwicklungsplänen zu verwenden.</td>
+      <td>Diese Funktion benötigt einen erheblichen Aufwand, sowohl im Frontend als auch im Backend, da dort umfangreiche Entwicklungen durchgeführt werden müssen. Die Voraussetzung für dieses Feature ist außerdem eine sehr hohe Benutzerfreundlichkeit.</td>
     </tr>
 
   </tbody>
 </table>
 
-To this end, I am very open to ideas and suggestions from the community at large. GOAT is an open source project and therefore targets a very strong interaction with its users. Just get in touch!
+Ich bin sehr offen für weitere Ideen oder Vorschläge aus der Community. GOAT ist ein Open-Source-Projekt und zielt daher auf eine starke Interaktion mit den Nutzern ab. Gerne einfach Kontakt aufnehmen! 
 
-Besides the listed improvements one main focus is on improved data fusion concepts and stronger engagement in the OpenStreetMap (OSM) community.
-For those who have tested GOAT, you might have realized that the demo app is currently only available for the city of Munich. As much as GOAT can be installed by everybody on it own server, many still want to be able to use GOAT immediately especially in their study area.
+Zusätzlich zu den aufgelisteten Verbesserungen, ist ein Schwerpunkt auch auf Datenfusionskonzepte und ein stärkeres Engagement in der OpenStreetMap-Community (OSM) ausgerichtet. Diejenigen, die GOAT bereits getestet haben, haben eventuell bereits bemerkt, dass die Demo-App momentan nur für die Stadt München erhältlich ist. GOAT kann zwar von jedem auf seinem eigenen Server installiert werden, viele wünschen sich aber, GOAT sofort in ihrem Anwendungsbereich nutzen zu können. 
 
-The reason for not extending coverage to other places is related to the claims I have on data quality and the resources available at my disposal for additional server space. From my perspective as OSM data can be of varying quality cross-checks with local knowledge and other data source are essential when the data is used in a production environment. 
+Der Grund, weshalb noch nicht weitere Orte abgedeckt werden, sind die hohen Anforderungen an Datenqualität und Ressourcen, die ich für zusätzlichen Serverplatz bräuchte. OSM-Daten können in ihrer Qualität variieren, daher ist es aus meiner Sicht unabdingbar Gegenkontrollen mit lokalem Wissen sowie anderen Datenquellen durchzuführen. Vor allem, wenn die Daten zu im realen Planungsbetrieb verwendet werden.  
 
-To this date, I can only be in a position to provide the services of GOAT within the boundaries of the city of Munich. However, in the coming months I can imagine to extend the online-version of GOAT to some other counties in the metropolitan regions of Munich.
+Bis zu diesem Tag bin ich bisher ausschließlich in der Lage, GOAT für die Stadt München anzubieten. Ich kann mir aber vorstellen, die Online-Version von GOAT für weitere Kreise in der Metropolregion München auszuweiten.  
 
-I would also be very open to launch GOAT in other cities worldwide as an initiative to foster meaningful cooperation with others. If you miss GOAT in your city and you are interested in becoming part of the community just get in touch and we could develop strategies to make this possible!
+Ich bin auch sehr offen dafür, GOAT in anderen Städten weltweit als Initiative zur Förderung von bedeutsamer Zusammenarbeit mit anderen zu etablieren. Wenn Sie GOAT in Ihrer Stadt vermissen und daran interessiert sind, Teil der Community zu werden, kontaktieren Sie mich einfach und ich werden Strategien entwickeln, um dies zu ermöglichen.  

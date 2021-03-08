@@ -1,6 +1,6 @@
 ---
 permalink: /de/mapillary/
-title:  "Covering Fürstenfeldbruck with Mapillary"
+title:  "Erhebung von Mapillary Aufnahmen für Fürstenfeldbruck"
 author: [ramirez, hassine]
 lang: de
 tags: [de]
@@ -9,41 +9,44 @@ thumbnail: blog/mapillary/mapillary_bike.jpg
 image: blog/mapillary/mapillary_bike.jpg
 ---
 
-Data, Data and more Data! While working in the [mFund project](https://www.bmvi.de/SharedDocs/DE/Artikel/DG/mfund-projekte/GOAT.html) to bring GOAT’s feature to the municipality Fürstenfeldbruck, we have been looking for available information from many sources to accomplish the objectives. 
+Daten, Daten und noch mehr Daten! Im Rahmen unserer Arbeit im [mFund Projektes](https://www.bmvi.de/SharedDocs/DE/Artikel/DG/mfund-projekte/GOAT.html) haben wir GOAT auf die Gemeinde Fürstenfeldbruck übertragen. Um dies zu bewerkstelligen, haben wir nach verfügbaren Daten aus unterschiedlichen Quellen gesucht.
 
-As always, OpenStreetMap has been a great source of information, but still a lot of details are missing. Here comes Mapillary, the easy way to describe it is “the Google Street View of open source”. People from all over the world have captured imagery from their cars, bikes or just by walking millions of kilometers of city streets, roads, pedestrian and bicycle-paths to have an up-to-date source of what is going on in the streets. But that is not everything, Mapillary’s magic is in their machine-generated map feature, so they can automatically detect different objects from the images (traffic signs, fire hydrant, lane markings, bicycle racks, etc.) and estimate their position on the map. Since in Fürstenfeldbruck only few parts of the road network were captured beforehand, we decided to go outside and take the pictures ourselves. This screenshot shows our coverage: 
+OpenStreetMap war, wie immer, eine hilfreiche Informationsquelle, dennoch haben viele Details gefehlt. Deshalb haben wir uns [Mapillary](https://www.mapillary.com/) zu Nutze gemacht. Mapillary kann als „das Google Street View der Open Source Community“ beschrieben werden. Menschen aus aller Welt haben Bildmaterial von Millionen von Kilometern an städtischen Straßen, Fußgänger- oder Fahrradwegen aufgenommen. Von ihren Autos aus, beim Fahrradfahren oder auch einfach im Zufußgehen. Das Ziel ist es, eine aktuelle Quelle für das Geschehen auf den Straßen zu erhalten. Das ist aber noch längst nicht alles. Das Besondere an Mapillary liegt in der KI-basierten Objekterkennung. So können verschiedenste Objekte (Verkehrsschilder, Hydranten, Fahrbahnmarkierungen, Fahrradständer etc.) automatisch auf den Bildern erkannt und so ihre räumliche Position auf der Karte ermittelt werden. 
+Da in Fürstenfeldbruck lediglich ein kleiner Teil des Straßennetzwerkes im Vorfeld bereits in Mapillary erfasst war, haben wir uns dazu entschieden, raus zu gehen und die Bilder selbst aufzunehmen. Dieser Screenshot zeigt, welchen Bereich wir bisher abgedeckt haben: 
 
-{% include image.html src="blog/mapillary/mapillary_ffb.png" alt="Fürstenfeldbruck Area and pictured links" %}
-<i>Figure 1. Fürstenfeldbruck Area and pictured links</i>
+{% include image.html src="blog/mapillary/mapillary_ffb.png" %}
+<i>Abbildung 1. Das Gebiet in Fürstenfeldbruck und die erfassten Wege</i>
 
-To learn how to work with Mapillary, we made some tests in Munich before going to Fürstenfeldbruck. During the test, we tried different kinds of cameras, holding devices to attach the phone/GoPro to the bicycle, settings for recording and different features from the app. Challenging is especially the high battery consumption and the high memory requirements for storing all images. The best set-up proved to be a GoPro for the pictures connected to a mobile phone for recording the GPS track and orientation (north - south), additionally equipped with a power bank.
+Um zu lernen, mit Mapillary zu arbeiten, haben wir zunächst einige Tests in München durchgeführt, bevor wir nach Fürstenfeldbruck gefahren sind. Dabei haben wir unterschiedliche Kameras und Haltevorrichtungen zur Befestigung des Handys bzw. GoPro am Fahrrad, sowie Einstellungen für die Aufnahme und unterschiedliche Funktionen der App ausprobiert. Vor allem der hohe Batterieverbrauch und der hohe Speicherplatzbedarf für die Bilder stellten sich als Herausforderungen dar. 
+Als bestes Setup erwies sich die GoPro für die Bilder in Kombination mit einem Handy zur Aufnahme der GPS-Tracks und zur Orientierung (Norden – Süden) sowie eine zusätzliche Powerbank.
 
-{% include image.html src="blog/mapillary/mapillary_bike.jpg" alt="Bicycle with the GoPro in the S-Bahn on our way to Fürstenfeldbruck" %}
-<i>Figure 2. Bicycle with the GoPro in the S-Bahn on our way to Fürstenfeldbruck</i>
+{% include image.html src="blog/mapillary/mapillary_bike.jpg" %}
+<i>Abbildung 2. Fahrrad mit GoPro in der S-Bahn, aufgenommen auf dem Weg nach Fürstenfeldbruck</i>
 
-So far, within the area, we have pictured 210 km in 8 days. Compared with the working time considered in the planning stage (5 days for 240 km), the real working time was around 2:30 hours per day (limited through the duration of the battery) and the average cycling speed is about 10 km/h because it is necessary to cross the same streets several times. There are very few areas and footpaths remaining but most of the streets are now covered. To face lower picture rate, we organized a group day where 4 members from the GOAT community went together to picture nearby villages. To organize this task, Mapillary has a feature called "Capture projects". With this feature, the user defines the general area that he wants to cover as a shape, in our case Fürstenfeldbruck. Then, the shape is divided in subareas, each of them are called tasks and are assigned to the “drivers” that are members of the group (Figure 3). Before we went to the city, everybody downloaded an app called "Mapillary Driver", here each of the drivers can see to which area they are assigned and for which streets pictures are missing, in that way it is very easy to complete all the tasks. 
+Bisher haben wir innerhalb dieses Gebietes 210 km in 8 Tagen erfasst. Verglichen mit der, in der Planungszeit geschätzten Arbeitszeit (5 Tage für 240km), war die tatsächliche Arbeitszeit ca. 2:30 Stunden pro Tag (durch die Akkulaufzeit begrenzt) und die durchschnittliche Geschwindigkeit beim Fahrradfahren lag bei ca. 10km/h. Der erhöhte Zeitaufwand liegt u.a. daran, dass es notwendig war, einige Straßenabschnitte mehrmals zu befahren, um in alle Teile des Straßennetzwerks zu gelangen. Ein paar wenige Bereiche und Fußgängerwege sind aktuell noch übrig, aber die meisten Straßenabschnitte sind nun abgedeckt. Um dieser geringen Bilderfassungsrate entgegen zu wirken, haben wir uns an einem Tag mit vier Mitgliedern der GOAT-Community als Gruppe getroffen und die umliegenden Dörfer fotografiert. 
+Um diese Aufgabe zu organisieren, haben wir bei Mapillary die Funktion „Capture projects“ genutzt. Mit dieser Funktion kann der Nutzende die Umrisse des Bereichs, der erfasst werden soll, definieren. In unserem Fall Fürstenfeldbruck. Im Anschluss daran, werden die Umrisse in Teilbereiche unterteilt, die als „tasks“, also als Aufgaben, bezeichnet und den „Drivern“ (Mitgliedern der Gruppe) zugeteilt (Abbildung 3). Bevor wir in das Untersuchungsgebiet gefahren sind, musste jedes Mitglied zunächst die App „Mapillary Driver“ herunterladen. Dort können alle „Driver“ sehen, welcher Teilbereich ihnen zugewiesen wurde und welche Straßen noch erhoben werden müssen. So war es sehr einfach, die Aufgaben zu koordinieren und das komplette Gebiet mit Bildaufnahmen abzudecken.
 
-{% include image.html src="blog/mapillary/mapillary_tasks.png" alt="Fürstenfeldbruck area divided by tasks and the assignment to each driver" %}
-<i>Figure 3. Fürstenfeldbruck area divided by tasks and the assignment to each driver</i>
+{% include image.html src="blog/mapillary/mapillary_tasks.png" %}
+<i>Abbildung 3. Das Gebiet in Fürstenfeldbruck, aufgeteilt nach Aufgaben und Zuordnung der einzelnen Fahrer*Innen</i>
 
-By doing this fieldwork, we are providing and improving the data available to develop GOAT’s features in Fürstenfeldbruck, but at the same time we are very happy to share the data with everybody out there. The information provided by the pictures and the machine-generation tools from Mapillary help to develop the data for better calculations. And the possibility to see up-to-date images makes it easy to remotely analyze the street. 
+Durch diese Arbeiten liefern wir neue Daten und verbessern die bereits bestehen Daten zur Weiterentwicklung der GOAT-Funktionen in Fürstenfeldbruck. Gleichzeitig freuen wir uns aber auch sehr, die Daten mit allen Interessierten zu teilen. Die Informationen aus den Bildern und die KI-Algorithmen von Mapillary helfen u.a. dabei, die OSM-Daten zu verbessern und somit eine genauere Berechnungsgrundlage für das Routing zu schaffen. Außerdem macht es dich die Möglichkeit, aktuelle Bilder einzusehen, einfach, die Straße aus der Ferne zu analysieren. 
 
 
 <iframe data-uk-responsive class="embed-responsive-item" src="https://player.vimeo.com/video/411741106?texttrack=en&autoplay=1&loop=1&autopause=0" allow="autoplay; fullscreen" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen width="1920" height="1080"></iframe>
 
-<i>Figure 4. The Mapillary images can be viewed directly in GOAT now</i>
+<i>Abbildung 4. Die Mapillary Bilder können nun direkt in GOAT eingesehen werden</i>
 
-This allows to verify details such as the quality of sidewalks or cycle paths; land use, as the pictures below where it is possible to identify residential areas with 30 zone or calmed roads, commercial areas to analyze parking distribution or footpaths and the quality of the road surface; schools, health buildings, points of interest and even possibility to find bicycle racks.
+So können Details überprüft werden, wie die Qualität von Geh- und Radwegen; Flächennutzung (wie auf den untenstehenden Bildern dargestellt, ist es möglich, Wohngebiete mit 30er Zonen oder verkehrsberuhigten Straßen, Gewerbegebiete zur Analyse der Parkplatzverteilung oder Fußgängerwege und die Qualität der Straßenoberfläche zu identifizieren); Schulen, Gesundheitshäuser und sogar Fahrradständer. 
 
 {% include image.html src="blog/mapillary/mapillary_sequences.png" alt="Captured sequences" %}
-<i>Figure 5. Captured sequences within different landuse areas</i>
+<i>Abbildung 5. Erfasste Bildsequenzen innerhalb unterschiedlicher Landnutzungsbereiche</i>
 
-Mapillary data was used to improve the quality of OpenStreetMap data. Like shown in the picture below Mapillary photos can easily and directly be used when editing in OSM. The taken photos in Fürstenfeldbruck area are showed as green dots. 
+Die Mapillary-Aufnahmen wurden genutzt, um die Qualität von OpenStreetMap-Daten zu verbessern. Wie auf dem Bild unten dargestellt, können Mapillary Bilder einfach und direkt bei der Bearbeitung in OSM genutzt werden. Die aufgenommenen Bilder im Gebiet Fürstenfeldbruck werden als grüne Punkte dargestellt.
 
-{% include image.html src="blog/mapillary/mapillary_osm.png" alt="Using Mapillary pictures to improve OSM data" %}
-<i>Figure 6. Using Mapillary pictures to improve OSM data</i>
+{% include image.html src="blog/mapillary/mapillary_osm.png" %}
+<i>Abbildung 6. Nutzung von Mapillaryaufnahmen zur Verbesserung der OSM-Daten</i>
 
-We used the data so far mainly to complete the attributes of the street network in OpenStreetMap. Based on the Mapillary photos many relevant attributes could be collected that are important to provide a more realistic cycling routing. As an example, it is possible to identify the type of surface (paved, unpaved, asphalt, concrete, paving stones, …) or smoothness (excellent, good, intermediate, bad, ...) of a road or path. It is also possible to identify if a road is designed for bicycles and pedestrians and much more... 
+Wir haben die Daten bisher hauptsächlich genutzt, um die Attribute des Straßennetzwerks in OSM zu vervollständigen. Auf der Grundlage der Bilder aus Mapillary können viele relevante Attribute gesammelt werden, die für die Gewährleistung einer realistischeren Radroutenführung wichtig sind. Beispielsweise ist es möglich, die Art der Straßenoberfläche (gepflastert, ungepflastert, Asphalt, Beton, Pflastersteine etc.) zu identifizieren oder die Qualität des Straßenbelags (exzellent, gut, mittel, schlecht) einer Straße oder eines Weges zu spezifizieren. Es ist auch möglich, zu identifizieren, ob eine Straße für Fahrräder und Fußgänger*Innen ausgelegt ist und vieles mehr. 
 
-We will keep on collected more imagery and fine tune our used methodology to build better map data for all!
+Wir werden weiterhin Bildmaterial sammeln und unsere Methodik verfeinern, um bessere Kartendaten für alle zu erstellen!
 
