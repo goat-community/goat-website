@@ -2,11 +2,11 @@
 lang: de
 layout: home
 width: full
-alert:
-  content: "[Nehmen Sie an dieser Umfrage teil und helfen Sie uns GOAT zu verbessern](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=de)"
+#alert:
+  #content: "[Nehmen Sie an dieser Umfrage teil und helfen Sie uns GOAT zu verbessern](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=de)"
 
 header:
-  background_color: "rgb(228, 255, 224)"
+  background_color: "rgb(190, 237, 220)"
   header_size: large
   heading_size: small
   title: Dynamische Erreichbarkeitsanalysen für eine nachhaltige und effektive Planung
