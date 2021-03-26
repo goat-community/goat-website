@@ -12,8 +12,9 @@ excerpt: Um lebenswerte Städte zu gestalten und eine nachhaltigere Mobilität z
 
 
 <i> 
-- Dieser Blogpost stellt eine Zusammenfassung meiner Masterarbeit dar. Bei Interesse an weiteren Details kann das komplette Dokument unten heruntergeladen werden. - 
+-Dieser Blogpost stellt eine Zusammenfassung meiner Masterarbeit dar. Bei Interesse an weiteren Details kann das komplette Dokument unten heruntergeladen werden. - 
 </i>
+
 
 
 Um lebenswerte Städte zu gestalten und eine nachhaltigere Mobilität zu prägen, ist es unabdingbar sich auf fußläufig erreichbare Umgebungen zu konzentrieren. Die wahrgenommene Qualität der Infrastruktur ist allerdings stark vom Einzelnen abhängig. In Deutschland sind zum Beispiel ein Drittel der Bevölkerung temporär Mobilitätseingeschränkt und 28% der Bevölkerung ist über 60 Jahre alt. Dies führt zu individuellen Bedürfnissen, wie beispielsweise ebene Bodenoberflächen und barrierefreie Gehwege. Um eine gute fußläufige Erreichbarkeit zu gewährleisten müssen all diese individuellen Bedürfnisse im Planungsprozess einbezogen werden. Das macht die Bereitstellung einer geeigneten Infrastruktur zu einer recht komplexen Herausforderung.
@@ -50,4 +51,4 @@ Diese Implementierung kann als erster Versuch zur besseren Modellierung der zeit
 Die GOAT-Version von Hasenbergl-Lerchenau enthält alle neuen Funktionen und kann [hier](https://hasenbergl.open-accessibility.org/) getestet werden. 
 
 
-Die komplette Masterarbeit kann [hier](https://mediatum.ub.tum.de/604993?query=Ulrike+Jehle&show_id=1542813)runtergeladen werden.
+Die komplette Masterarbeit kann [hier](https://mediatum.ub.tum.de/604993?query=Ulrike+Jehle&show_id=1542813) runtergeladen werden.
