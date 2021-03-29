@@ -1,4 +1,5 @@
 ---
+permalink: /de/sensor-freiberg
 title: "Test innovativer Ansätze zur Datenerfassung "
 author: [ramirez, jehle, pajares]
 lang: de
