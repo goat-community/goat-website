@@ -25,7 +25,7 @@ Wie verändert sich die Erreichbarkeit durch den Bau einer neuen Fahrradbrücke 
 3. Wählen Sie welchen Layer Sie bearbeiten möchten, in diesem Fall den „Wege“ Layer.  {% include image.html src="../../uploads/training materials/Scenario_building/scenario_ways.png" maxheight="200px" %}
 
 
-4. Zoomen Sie zu der Stelle, an der Sie eine neue Fahrradbrücke bauen wollen und wählen Sie mittels des Kreis-Werkzeuges das umliegenden Straßennetz aus.  {% include image.html src="../../uploads/training materials/Scenario_building/circle_scenario.png" %}
+4. Zoomen Sie zu der Stelle, an der Sie eine neue Fahrradbrücke bauen wollen und wählen Sie mittels des Kreis-Werkzeuges das umliegenden Straßennetz aus.  {% include image.html src="../../uploads/training materials/Scenario_building/circle_scenario.png" maxheight="300px"%}
 
 5. Zeichnen Sie an der gewünschten Stelle eine neue Wegeverbindung, wählen als Wegetyp „Brücke“ aus und klicken Sie auf „Speichern“. Die gezeichneten Wege werden nun rechts in der Tabelle aufgeführt. Um diese Wege in die Datenbank zu integrieren, müssen diese über den Button „Hochladen“ hochgeladen werden.  {% include image.html src="../../uploads/training materials/Scenario_building/bridge_building.png" maxheight="300px"%}
 
