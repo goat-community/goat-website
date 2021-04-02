@@ -12,7 +12,7 @@ excerpt: Um lebenswerte Städte zu gestalten und eine nachhaltigere Mobilität z
 
 
 <i> 
-- Dieser Blogpost stellt eine Zusammenfassung meiner Masterarbeit dar. Bei Interesse an weiteren Details kann das komplette Dokument unten heruntergeladen werden. - 
+-Dieser Blogpost stellt eine Zusammenfassung meiner Masterarbeit dar. Bei Interesse an weiteren Details kann das komplette Dokument unten heruntergeladen werden. - 
 </i>
 
 
