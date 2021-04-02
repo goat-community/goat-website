@@ -23,7 +23,7 @@ How does the construction of a new bicycle bridge across the river changes acces
 
 3. Select which layer you want to edit, in this case the "Ways" Layer.  {% include image.html src="../../uploads/training materials/Scenario_building/scenario_ways.png" maxheight="200px" %}
 
-4. Zoom to the place where you want to build a new bicycle bridge and select the surrounding road network using the circle tool.  {% include image.html src="../../uploads/training materials/Scenario_building/circle_scenario.png" %}
+4. Zoom to the place where you want to build a new bicycle bridge and select the surrounding road network using the circle tool.  {% include image.html src="../../uploads/training materials/Scenario_building/circle_scenario.png" maxheight="300px" %}
 
 5. Draw a new route connection at the desired location, select "Bridge" as the route type and click on "Save". The drawn paths are now listed in the table on the right. In order to integrate these paths into the database, you have to click on the "Upload" button.  {% include image.html src="../../uploads/training materials/Scenario_building/bridge_building.png" maxheight="300px" %}
 

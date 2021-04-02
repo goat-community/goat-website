@@ -6,7 +6,7 @@ tags: [de]
 categories: [news]
 thumbnail: blog/mapping_party/thumbnail.png
 image: blog/mapping_party/image_background.png
-excerpt: The Chair of Urban Structure and Transport Planning is frequently organizing Mapping Parties with the motivation to actively improve the quality of OpenStreetMap (OSM), which is the most prominent example of an open, crowd-sourced geographic dataset.
+excerpt: Der Lehrstuhl für Siedlungsstruktur und Verkehrsplanung organisiert regelmäßig Mapping-Partys mit dem Ziel die Qualität von OpenStreetMap OSM aktiv zu verbessern. OSM ist das prominenteste Beispiel einer durch crowdsourcing erhobenen open-source Datenbank.
 ---
 Der Lehrstuhl für Siedlungsstruktur und Verkehrsplanung organisiert regelmäßig Mapping-Partys mit dem Ziel die Qualität von [OpenStreetMap (OSM)](https://www.openstreetmap.org/) aktiv zu verbessern. OSM ist das prominenteste Beispiel einer durch crowdsourcing erhobenen open-source Datenbank.
 
