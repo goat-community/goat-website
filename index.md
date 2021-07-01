@@ -25,7 +25,7 @@ what:
   description: Geo Open Accessibility Tool, or simply GOAT, is an open-source web tool that is interactive, flexible, and practical for accessibility planning. Currently under development at the [Chair for Urban Structure and Transport Planning at TUM](https://www.bgu.tum.de/sv/startseite/), GOAT is capable of modeling walking and cycling accessibility. Frequent enhancements are made to improve its performance and add additional functionality. You can test different versions of GOAT [here](/versions).
 
 why:
-  title: Why to use GOAT?
+  title: Why use GOAT?
   image: isochrone_amenities.png
   description: There is rising awareness that active mobility plays a vital role in urban transport systems. However, to date there are few planning instruments that are focusing on walking and cycling. GOAT as an accessibility tool is therefore designed to model walking/cycling accessibility and serve as a suitable instrument for easier, better, and more open transport and urban planning.
 

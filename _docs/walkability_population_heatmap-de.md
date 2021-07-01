@@ -20,7 +20,7 @@ Die Vergleichs-Heatmap von Erreichbarkeit und Bevölkerungsdichte ergibt sich au
 Zur Klassifizierung der Erreichbarkeitswerte, die für jedes Hexagon berechnet wurden, wird eine Einteilung basierend auf Perzentilen verwendet. Die folgende Tabelle zeigt examplarisch, wie sich die Erreichbarkeitswerte zusammensetzen.
 {% include image.html src="docs/technical_documentation/walkability_population_index/percentile.png" %}
 
-Der Vergleichs-Heatmap wird wie folgt berechnet:
+Die Vergleichs-Heatmap wird wie folgt berechnet:
 
 <b> Erreichbarkeit - Bevölkerungs - Index = Bevölkerungsdichte – Erreichbarkeitswert </b>
 
