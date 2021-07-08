@@ -1,21 +1,7 @@
 # Navbar menu navigation links
-- title: 
-    en: GOAT
-    de: GOAT
-  url: versions/
 
 - title: 
-    en: Help
+    en: Docs
     de: Hilfe
-  url: help/
-
-- title: 
-    en: Blog
-    de: Blog
-  url: blog/
-
-- title: 
-    en: Team
-    de: Team
-  url: team/
+  url: docs/background/
 
