@@ -69,14 +69,21 @@ layout: default
 
 <div class="uk-section uk-section-large uk-section-default">
   <div class="uk-container">
-    <h2 class="uk-h1 uk-margin-medium-bottom uk-text-center">{{ site.data.translation[page_lang].recent_posts | default: "Recent Posts" }}</h2>
-    <div class="uk-child-width-1-3@m uk-grid-match" data-uk-grid>
-      {% assign posts = site.posts | where: 'lang', page_lang %}
-      {% for post in posts limit: 3 %}
-        <div>
-          {% include post-card.html %}
+    <div class="uk-child-width-expand@m uk-grid-match uk-flex-center" data-uk-grid>
+      <div>
+        <div class="uk-card uk-card-large uk-card-none uk-grid-collapse uk-margin" data-uk-grid>
+          <div class="uk-flex-last@m uk-card-media-right uk-width-1-2@m">
+            <img data-src="{% if page.info.image contains 'http' %}{{ page.info.image }}{% else %}{{ site.uploads | absolute_url }}{{ page.info.image }}{% endif %}"
+              alt="{{ page.info.title }}" class="uk-box-shadow-large" data-uk-img>
+          </div>
+          <div class="uk-flex uk-flex-middle uk-width-expand@m">
+            <div class="uk-card-body">
+              <h3 class="uk-h1 uk-margin-bottom">{{ page.info.title }}</h3>
+              <div class="uk-text-lead">{{ page.info.description | markdownify }}</div>
+            </div>
+          </div>
         </div>
-      {% endfor %}
+      </div>
     </div>
   </div>
 </div>

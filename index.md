@@ -2,27 +2,22 @@
 lang: en
 layout: home
 width: full
-#alert:
-  #content: "[Help us to improve GOAT by participating in this survey](https://www.umfrage.sv.bgu.tum.de/index.php/837925?lang=en)"
+alert:
+  content: "Hey, we founded a startup called Plan4Better! The team will continue to develop this open source project further. Part of the content is now managed on the new [Plan4Better website](https://plan4better.de/)."
 
 header:
   background_color: "rgb(190, 237, 220)"
   header_size: large
   heading_size: small
-  title: Dynamic accessibility analysis for sustainable planning
+  title: Hi and welcome to the documentation website of GOAT!
   subtitle:
   image: isochrone_amenities.png
-  button:
-    text: Try GOAT
-    url: versions/
-  button_2:
-    text: Videos
-    url: videos/
+
 
 what:
   title: What is GOAT?
   image: heatmap.png
-  description: Geo Open Accessibility Tool, or simply GOAT, is an open-source web tool that is interactive, flexible, and practical for accessibility planning. Currently under development at the [Chair for Urban Structure and Transport Planning at TUM](https://www.bgu.tum.de/sv/startseite/), GOAT is capable of modeling walking and cycling accessibility. Frequent enhancements are made to improve its performance and add additional functionality. You can test different versions of GOAT [here](/versions).
+  description: Geo Open Accessibility Tool, or simply GOAT, is an open-source web tool that is interactive, flexible, and practical for accessibility planning. Currently under development at the startup [Plan4Better](https://plan4better.de/) and the [Chair for Urban Structure and Transport Planning at TUM](https://www.bgu.tum.de/sv/startseite/), GOAT is capable of modeling walking and cycling accessibility. Frequent enhancements are made to improve its performance and add additional functionality. 
 
 why:
   title: Why use GOAT?
@@ -32,5 +27,10 @@ why:
 features:
   title: What are the main features?
   image: draw_bridge.png
-  description: The main focus of GOAT is to offer dynamic accessibility analysis at the street,neighborhood, and district level. With GOAT, you can calculate different accessibility indicators such as isochrones and gravity-based heatmaps. What is special about GOAT is that you can develop your own case scenarios. For instance, you can model the effects of a new bridge or new housing development on accessibility. You can view GOAT in action in the videos [here](/videos).
+  description: The main focus of GOAT is to offer dynamic accessibility analysis at the street, neighborhood, and district level. With GOAT, you can calculate different accessibility indicators such as isochrones and gravity-based heatmaps. What is special about GOAT is that you can develop your own case scenarios. For instance, you can model the effects of a new bridge or new housing development on accessibility. 
+
+info: 
+  title: Searching for the tutorials? Interested in live applications?
+  image: 
+  description: Visit the [Plan4Better Website](https://plan4better.de)!
 ---
