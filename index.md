@@ -31,6 +31,5 @@ features:
 
 info: 
   title: Searching for the tutorials? Interested in live applications?
-  image: 
   description: Visit the [Plan4Better Website](https://plan4better.de)!
 ---

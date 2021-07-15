@@ -72,10 +72,6 @@ layout: default
     <div class="uk-child-width-expand@m uk-grid-match uk-flex-center" data-uk-grid>
       <div>
         <div class="uk-card uk-card-large uk-card-none uk-grid-collapse uk-margin" data-uk-grid>
-          <div class="uk-flex-last@m uk-card-media-right uk-width-1-2@m">
-            <img data-src="{% if page.info.image contains 'http' %}{{ page.info.image }}{% else %}{{ site.uploads | absolute_url }}{{ page.info.image }}{% endif %}"
-              alt="{{ page.info.title }}" class="uk-box-shadow-large" data-uk-img>
-          </div>
           <div class="uk-flex uk-flex-middle uk-width-expand@m">
             <div class="uk-card-body">
               <h3 class="uk-h1 uk-margin-bottom">{{ page.info.title }}</h3>
