@@ -1,5 +1,5 @@
 ---
-title: Setup your own GOAT (recommended)
+title: Setup your own GOAT
 permalink: /docs/quick_start_docker/
 ---
 
