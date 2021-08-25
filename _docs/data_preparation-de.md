@@ -5,92 +5,90 @@ lang: de
 ---
 
 
-<b>Necessary shapefile<b>
+#### Data
+There is one folder, `your-GOAT-directory/app/database/data`, in which you can organize the data you want to load into the database. 
+The setup script will search for shapefiles (.shp), and SQL-table (.sql) dumps in this directory. All of the data will be uploaded as custom data tables into your database. In the following table, schemas for the most important custom datasets are described:  
 
-study_area.shp
+##### Study Area
+Table name: study_area
+{% include image.html src="docs/technical_documentation/data_preparation/table_study_area.png" alt="Table schema study area" %}
 
-There is one folder (your-GOAT-directory/app/database/data) in which you can organize the data you want to load into the database. 
-The setup-script will search for shapefiles in this directory and upload all of them into your database. The only file that is essential for setting up GOAT is a shapefile defining your study area. Other data is optional, however especially landuse data or custom population data can improve data quality.
-As high-resolution population data is one of most important data source for GOAT there are three different ways for you to feed the data into the system. Depending on your data availability you can pick one approach in the `your-GOAT-directory/app/config/goat_config.yaml`.
+##### Landuse
+Table name: landuse
+{% include image.html src="docs/technical_documentation/data_preparation/table_landuse.png" alt="Table schema land use" %}
 
-You can get administrative boundaries from different sources:
+##### Landuse additional
+Table name: landuse_additional
+{% include image.html src="docs/technical_documentation/data_preparation/table_landuse_additional.png" alt="Table schema additiona land use" %}
 
-[Germany - Bundesamt für Kartographie und Geodäsie](https://gdz.bkg.bund.de/index.php/default/digitale-geodaten/verwaltungsgebiete.html?___store=default)
+##### Census 
+Table name: census
+{% include image.html src="docs/technical_documentation/data_preparation/table_census.png" alt="Table schema census" %}
 
-[Worldwide - DIVA-GIS](https://www.diva-gis.org/gdata)
+##### Buildings custom
+Table name: buildings_custom
+{% include image.html src="docs/technical_documentation/data_preparation/table_buildings_custom.png" alt="Table schema custom buildings" %}
 
-[Worldwide - OpenStreetMap (via overpass turbo)](https://overpass-turbo.eu/) 
+##### Custom Population point data
+Table name: population
+{% include image.html src="docs/technical_documentation/data_preparation/table_population.png" alt="Table schema custom population data" %}
 
-Example query for requesting the city area of München in Overpass:
-    
-{% raw %}
-```  
-[out:json][timeout:25];
-(relation["boundary"="administrative"]["name"="München"]({{bbox}}););
-out body;>;
-out skel qt;
-``` 
-{% endraw %}
+All attributes labelled as "not null" are required attributes. The remaining attributes are option but are suggested if available as they will improve the results. The described custom tables are especially used for the provision of population data. It is important to keep the described naming convention as GOAT expects the attributes to be labeled as shown. Not all tables are required to run GOAT and depending on the availability of data one or the other option to process population data is used. 
 
+#### Population disaggregation
 
-##### Population disaggregation
+Accurate population data is of special importance for GOAT. Due to the variety of available data sets different options for handling population data are provided. There are defined four options for which the configuration file `your-GOAT-directory/app/config/goat_config.yaml` can be adjusted:
 
-<b>Custom data<b>
+##### Options
+<b>Census Standard</b>
+Data originating from a census grid is disaggregated proportionally on the building access level considering the residential gross floor area of buildings. 
 
-landuse.shp (optional)
+In goat_config.yaml: `POPULATION: "census_standard"`
 
-Two SQL-scripts do the job for you:
+Required tables: `study_area`, `census`
 
-The script `your-GOAT-directory/app/database/data_preparation/SQL/buildings_residential.sql` will extract all the residential buildings from the planet_osm_polygon-table (this table contains all OSM-polygons in you study area and will be created automatically). As OSM data is of varying quality and tagging-schemes are not always consistent there are several attributes on which this extraction can be done. In addition a custom landuse-table can help to select only residential buildings. You can customize the settings for this extraction in the table variable_container either before the setup (the creation settings of the variable_container can be found in `your-GOAT-directory/app/database/data_preparation/SQL/create_tables.sql`) but also afterwards by directly changing the table variable_container to tune your disaggregation. 
+Optional tables: `landuse`, `landuse_additional`, `buildings_custom`
 
-There is a second script `your-GOAT-directory/app/database/data_preparation/SQL/population_disaggregation.sql` actually disaggregates the population data from the boundaries you added with your study_area to the individual buildings. As the population disaggregation is based on OpenStreetMap data, it relies on relatively complete OSM-buildings footprints. In addition, especially in areas with heterogenous building levels it is recommended to check if buildings levels are mapped properly. If there are no buildings levels mapped a default value, which can be defined by you in the database table `variable_container` will be used. 
+<b>Census Extrapolation</b>
+As census data is often out of data a procedure was developed that updates outdates census grids and disaggregates population on the building access level. 
 
-In general it is highly recommended to check for the data quality in your study area. If you are unhappy with the data quality it is highly recommended to improve the local OSM dataset. Very often with some little mapping effort you can improve data quality essentially. The setup of GOAT allows you to update the data after successful mapping. 
+In goat_config.yaml: `POPULATION: "census_extrapolation"`
 
-In case you need an additional landuse data source for a study area within Europe, you can check out the [Urban Atlas](https://land.copernicus.eu/local/urban-atlas/urban-atlas-2018).
+Required tables: `study_area`, `census`
 
-
-##### Census extrapolation 
-
-<b>Custom data<b>
-
-census.shp
-
-landuse.shp (optional)
-
-In the case you have census data in your study area but you know the data is outdated. GOAT has an script `your-GOAT-directory/app/database/data_preparation/SQL/census.sql` that allows you to update the census grids based on current population numbers in your whole study area. The script checks for areas where new development took place and estimates based on average gross living area how many residents live in the affected grids. You can also customize the same in the `variable_container`. This procedure also makes use of the extracted residential buildings as described in the population dissagregation.
-
-The 2011 census data for Germany can be downloaded [here](https://www.zensus2011.de/DE/Home/Aktuelles/DemografischeGrunddaten.html).
-
-##### Custom high-resolution population data 
-
-<b>Custom data<b>
-
-population.shp
-
-If you have population data as point source you can upload the same into the database.
+Optional tables: `landuse`, `landuse_additional`, `buildings_custom`
 
 
-##### Filename conventions
+<b>Population disaggregation</b>
+Population is disaggregated from the districts of the study area to the building access level considering the residential gross floor area of buildings.
 
-The automated way the scripts process the data make it necessary that the your custom data is labelled correctly. It is important that the filename and certain attributes are labelled as in the following examples. It is possible to import shapefiles with additional columns however the folowing conventions must be followed.
+In goat_config.yaml: `POPULATION: "disaggregation"`
 
-{% include image.html src="docs/technical_documentation/data_preparation/shapefile_study_area.png" alt="how your study area shapefile has to be for GOAT" %}
+Required tables: `study_area`
 
-<b>Name the file <font color="red">study_area.shp</font> and make sure the columns <font color="red">sum_pop</font> and <font color="red">name</font> are existing!<b>
+Optional tables: `landuse`, `landuse_additional`, `buildings_custom`
 
-{% include image.html src="docs/technical_documentation/data_preparation/shapefile_landuse.png" alt="how your landuse shapefile has to be for GOAT" %}
+<b>Custom population point data </b>
+If custom population data sets is provided not disaggregation is performed. 
 
-<b>Name the file <font color="red">landuse.shp</font> and make sure the column <font color="red">landuse</font> is existing!<b>
+In goat_config.yaml: `POPULATION: "custom_population"`
 
-{% include image.html src="docs/technical_documentation/data_preparation/shapefile_census.png" alt="how your census shapefile has to be for GOAT" %}
+Required tables: `population`
 
-<b>Name the file <font color="red">census.shp</font> and make sure the column <font color="red">pop</font> is existing!<b>
+##### Classification buildings
+For the modes "census_standard", "census_extrapolation" and "disaggregation" buildings are classified into residential and non-residential. This is done based on a process called dasymetric mapping, which uses several filters and data such as landuse to properly label buildings. 
+In the configuration file `goat_config.yaml` these filters can be adjusted. The default settings are mostly tailored to Munich therefore it is highly suggested to revise categorization if you work in another context.
 
-{% include image.html src="docs/technical_documentation/data_preparation/shapefile_population.png" alt="how your population shapefile has to be for GOAT" %}
-
-<b>Name the file <font color="red">population.shp</font> and make sure the column <font color="red">population</font> is existing!<b>
-
-
-You can furthermore permanently upload additional data into your database with the command-line tools shp2pgsql or others.
+- <b>custom_landuse_no_residents</b>: if you have the table "landuse" you can define landuse categories that are not residential
+- <b>custom_landuse_additional_no_residents</b>: if you have the table "landuse_addition" you can define landuse categories that are not residential
+- <b>osm_landuse_no_residents</b>: landuse categories from OSM that you label as not residential (Check: [https://wiki.openstreetmap.org/wiki/landuse](https://wiki.openstreetmap.org/wiki/landuse))
+- <b>building_types_potentially_residential</b>: building type that should not be excluded – <font color="red">Note: many buildings are just labeled building=yes in OSM</font>
+- <b>building_types_residential</b>: building type that is for sure residential e.g. building=residential. This applied also to custom building data but mostly the OSM convention on building types is followed: [https://wiki.openstreetmap.org/wiki/Key:building](https://wiki.openstreetmap.org/wiki/Key:building))
+- <b>tourism_no_residents</b>: <i>osm-tag tourism</i> that has no residents (Check: [https://wiki.openstreetmap.org/wiki/Tourism](https://wiki.openstreetmap.org/wiki/Tourism) )
+- <b>amenity_no_residents</b>: <i>osm-tag amenity</i> that has no residents (Check: [https://wiki.openstreetmap.org/wiki/Key:amenity](https://wiki.openstreetmap.org/wiki/Key:amenity))
+- <b>minimum_building_size_residential</b>: all buildings that have a smaller size than this are labeled as not residential (very often garages etc.)
+- <b>average_gross_living_area</b>: the average gross living area in your study area per resident in m²
+- <b>average_building_levels</b>: this is a fallback value in case no building levels are defined on the level of buildings or districts. 
+- <b>average_roof_levels</b>: this is a fallback value in case no roof levels are defined on the level of buildings or districts. 
+- <b>average_height_per_level</b>: this value is used to compute the number of building levels in case the height of buildings is know. 
 
