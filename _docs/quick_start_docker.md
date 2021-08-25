@@ -13,8 +13,7 @@ It is recommended to use Git for fetching the project.
 Clone the GOAT-repo to a folder of your choice. Navigate first to the folder and run:
 
 `git clone https://github.com/goat-community/goat.git` (run on your <span style="color:#07d">host</span>)
-
-{% include image.html src="docs/technical_documentation/setup/git_clone.png" alt="how your command window should look like" %}
+![](/images/docs/technical_documentation/setup/git_clone.png)
 
 
 
@@ -93,43 +92,31 @@ Password: earlmanigault
 
 Port: 65432
 
-##### 7. Geoserver
-
-The default password for your Geoserver instance is:
-
-User: admin
-
-Password : earlmanigault
-
-You can access Geoserver by typing the following into your browser:
-
-[http://localhost/geoserver](http://localhost/geoserver)
-
-##### 8. View GOAT in the browser
+##### 7. View GOAT in the browser
 
 If all steps were successful you will be able to use GOAT by typing the following into your browser:
 
 [http://localhost](http://localhost)
 
-##### 9. How start and stop GOAT
+##### 8. How start and stop GOAT
 
 Navigate to your GOAT-folder (in this folder there should be the docker-compose.yml file)
 
-<b>Stop<b>
+<b>Stop</b>
 
 `docker-compose down` (This will stop all running containers)
 
-<b>Start<b>
+<b>Start</b>
 
 `docker-compose up -d` (This will start all containers defined in the docker-compose.yml file)
 
-##### 10. Backup Database
+##### 9. Backup Database
 
 This command will produce a database backup at `your-GOAT-directory/app/database/backups`
 
 `docker exec -it goat-database python3 /opt/setup_goat.py -b -n your-namespace`
 
-##### 11. Update data
+##### 10. Update data
 
 In case you want to update all your data and pre-compute the heatmap again, you can simply run the following from your project directory:
 
