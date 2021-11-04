@@ -8,14 +8,8 @@
 - category: Technical Documentation
   docs:
   - quick_start_docker
-  - quick_start_vm
   - data_preparation
-  - alphashape
   - population
-  - heatmap
-  - walkability population heatmap
-  - routing_profiles
-  
 
 - category: Contribute to OSM
   docs:

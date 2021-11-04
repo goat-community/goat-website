@@ -1,5 +1,5 @@
 ---
-title: Setup your own GOAT (recommended)
+title: Setup your own GOAT
 permalink: /docs/quick_start_docker/
 ---
 
@@ -31,9 +31,6 @@ As docker and docker-compose were originally build for the Linux OS, it could be
 
 [https://docs.docker.com/docker-for-windows/troubleshoot/](https://docs.docker.com/docker-for-windows/troubleshoot/)
 
-In case you don't manage to install docker on your machine. You can follow the setup procedure described here: 
-
-[Setup your own GOAT (alternative)](../quick_start_vm/)
 
 #### 3. Configure GOAT
 
