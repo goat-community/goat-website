@@ -10,6 +10,11 @@
   - quick_start_docker
   - data_preparation
   - population
+  - alphashape
+  - heatmap
+  - walkability population heatmap
+  - routing_profiles
+  
 
 - category: Contribute to OSM
   docs:
