@@ -6,18 +6,14 @@ width: small
 ## Imprint
 
 #### Operator
-Technical University of Munich  
-Chair of Urban Structure and Transport Planning
-
-
-#### Address
-Arcisstraße 21  
+Plan4Better GmbH  
+Augustenstraße 49  
 80333 München  
 Germany
 
 #### Contact
-Email: elias.pajares@tum.de  
-Telephone: +49 89 289 22538
+Email: info@plan4better.de  
+Telephone: +49 89 2000 708 30
 
 ## Privacy Policy
 Personal data (usually referred to just as "data" below) will only be processed by us to the extent necessary and for the purpose of providing a functional and user-friendly website, including its contents, and the services offered there.
@@ -35,16 +31,15 @@ III. Information about the data processing
 ### I. Information about us as controllers of your data
 The party responsible for this website (the "controller") for purposes of data protection law is:
 
-Technical University of Munich - Chair of Urban Structure and Transport Planning  
-Arcisstraße 21  
+Plan4Better GmbH  
+Augustenstraße 49  
 80333 München  
 Germany
 
-
-Email: elias.pajares@tum.de  
 The controller's data protection officer is:
 
-Elias Pajares 
+Elias Pajares  
+Email: elias.pajares@plan4better.de  
 
 ### II. The rights of users and data subjects
 With regard to the data processing to be described in more detail below, users and data subjects have the right

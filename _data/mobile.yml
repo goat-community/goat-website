@@ -1,20 +1,6 @@
 # Mobile menu navigation links
-- title: 
-    en: GOAT
-    de: GOAT
-  url: versions/
 
 - title: 
-    en: Blog
-    de: Blog
-  url: blog/
-
-- title: 
-    en: Team
-    de: Team
-  url: team/
-
-- title: 
-    en: Help
+    en: Docs
     de: Help
-  url: help/
+  url: docs/background/

@@ -31,7 +31,7 @@ navbar:
   search:               false
 
 footer:                 
-  copyright:            Open Accessibility 2020 | All Rights Reserved
+  copyright:            Open Accessibility 2021 | All Rights Reserved
   logos:
     - image:            logo-tum.png
       url:              https://www.bgu.tum.de/sv/startseite/
@@ -63,9 +63,9 @@ social_networks:
   github:               https://github.com/goat-community/goat
   googleplus:
   instagram:            
-  linkedin:             https://www.linkedin.com/company/goat-tool/
+  linkedin:             
   pinterest:
-  twitter:              https://twitter.com/GoatTool
+  twitter:              
   vimeo:
   youtube:
 

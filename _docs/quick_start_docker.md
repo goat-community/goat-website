@@ -1,5 +1,5 @@
 ---
-title: Setup your own GOAT (recommended)
+title: Setup your own GOAT
 permalink: /docs/quick_start_docker/
 ---
 
@@ -13,8 +13,7 @@ It is recommended to use Git for fetching the project.
 Clone the GOAT-repo to a folder of your choice. Navigate first to the folder and run:
 
 `git clone https://github.com/goat-community/goat.git` (run on your <span style="color:#07d">host</span>)
-
-{% include image.html src="docs/technical_documentation/setup/git_clone.png" alt="how your command window should look like" %}
+![](/images/docs/technical_documentation/setup/git_clone.png)
 
 
 
@@ -32,9 +31,6 @@ As docker and docker-compose were originally build for the Linux OS, it could be
 
 [https://docs.docker.com/docker-for-windows/troubleshoot/](https://docs.docker.com/docker-for-windows/troubleshoot/)
 
-In case you don't manage to install docker on your machine. You can follow the setup procedure described here: 
-
-[Setup your own GOAT (alternative)](../quick_start_vm/)
 
 #### 3. Configure GOAT
 
@@ -61,9 +57,17 @@ Fill and prepare the goat-database:
 GOAT allows you to use pre-calculated matrices that are used to visualize the dynamic heatmaps. 
 In order to start the pre-calculation you currently have to start the script manually with the following command:
 
-`docker exec -it goat-database python3 /opt/scripts/precalculate_heatmap.py`
+`docker exec -it goat-database python3 /opt/setup_goat.py -p`
 
-Depending on the size of your study-area this can take some time. For Munich approx. 20 minutes.
+Depending on the size of your study-area this can take some time. For Munich approx. 10 minutes.
+
+Note you can also run both tasks at the same time:
+
+`docker exec -it goat-database python3 /opt/setup_goat.py -n new_setup -p` 
+
+There are more flags for the setup script, which you could explore by running:
+
+`docker exec -it goat-database python3 /opt/setup_goat.py -h` 
 
 For more Docker commands checkout:
 
@@ -85,52 +89,34 @@ Password: earlmanigault
 
 Port: 65432
 
-##### 7. Geoserver
-
-The default password for your Geoserver instance is:
-
-User: admin
-
-Password : earlmanigault
-
-You can access Geoserver by typing the following into your browser:
-
-[http://localhost/geoserver](http://localhost/geoserver)
-
-##### 8. View GOAT in the browser
+##### 7. View GOAT in the browser
 
 If all steps were successful you will be able to use GOAT by typing the following into your browser:
 
 [http://localhost](http://localhost)
 
-##### 9. How start and stop GOAT
+##### 8. How start and stop GOAT
 
 Navigate to your GOAT-folder (in this folder there should be the docker-compose.yml file)
 
-<b>Stop<b>
+<b>Stop</b>
 
 `docker-compose down` (This will stop all running containers)
 
-<b>Start<b>
+<b>Start</b>
 
 `docker-compose up -d` (This will start all containers defined in the docker-compose.yml file)
 
-##### 10. Backup Database
+##### 9. Backup Database
 
-Per default the database is configured to run every day a backup at 11 PM. In case your database is not running at that time, the backup will be produced once you start GOAT.
+This command will produce a database backup at `your-GOAT-directory/app/database/backups`
 
-In case you want an immediate backup you can simply run:
+`docker exec -it goat-database python3 /opt/setup_goat.py -b -n your-namespace`
 
-`docker exec -it goat-database python3 /opt/manage_dump.py -n your_namespace -b`
+##### 10. Update data
 
-##### 11. Update data
+In case you want to update all your data and pre-compute the heatmap again, you can simply run the following from your project directory:
 
-In case you want to update all your data you can simply run the following from your project directory:
-
-`docker exec -it goat-database python3 /opt/setup_goat.py -t new_setup` 
+`docker exec -it goat-database python3 /opt/setup_goat.py -t new_setup -p` 
 
 <b><font color="red">!!Note this will drop your database and create a new database.!!</font><b>
-
-Furthermore you need to run the pre-calculation script again in order to be able to use the heatmaps:
-
-`docker exec -it goat-database python3 /opt/scripts/precalculate_heatmap.py`

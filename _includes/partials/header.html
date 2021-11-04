@@ -48,15 +48,16 @@
   {% assign background_image = page.header.background_image %}
 {% endif %}
 
-{% if page.alert %}
-<div class="uk-text-center uk-background-danger uk-light uk-margin-remove" data-uk-alert>
-  {{ page.alert.content | markdownify }}
-</div>
-{% endif %}
 
 {% assign page_lang = page.lang | default: site.lang %}
 {% if sticky %}
+
   <div data-uk-sticky="{% if scroll_up %}show-on-up: true; {% endif %}{% if animation %}animation: uk-animation-slide-top; top: 200; {% endif %}sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky navbar-background uk-{{ color | default: 'dark' }}; cls-inactive: {% if page.navbar.transparent %}uk-navbar-transparent uk-{{ transparent_color | default: 'dark' }}{% else %}navbar-background uk-{{ color | default: 'dark' }}{% endif %}">
+    {% if page.alert %}
+    <div class="uk-alert-large-size uk-text-center uk-background-danger uk-light uk-margin-remove" data-uk-alert>
+      {{ page.alert.content | markdownify }}
+    </div>
+    {% endif %}
     <nav class="uk-navbar-container">
       {% include partials/navbar-default.html %}
     </nav>

@@ -1,23 +1,10 @@
 # Footer navigation
-- title: 
-    en: GOAT
-    de: GOAT
-  url: versions/
 
 - title: 
-    en: Help
+    en: Docs
     de: Hilfe
-  url: help/
+  url: docs/background/
 
-- title: 
-    en: Blog
-    de: Blog
-  url: blog/
-
-- title: 
-    en: Team
-    de: Team
-  url: team/
 
 - title: 
     en: Imprint & Privacy
