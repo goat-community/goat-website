@@ -2,6 +2,11 @@
 
 - title: 
     en: Docs
-    de: Hilfe
+    de: Dokumentation
   url: docs/background/
+
+- title: 
+    en: GOAT 3.0
+    de: GOAT 3.0
+  url: goat3_0
 
