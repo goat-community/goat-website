@@ -114,7 +114,12 @@
           {% assign en_url = page.url | remove_first: '/de' %}
         {% endif %}
 
-    
+        <li><a href="{{ en_url | relative_url }}">
+          <img class="uk-lang-icon" src="{{ site.uploads | absolute_url }}{{ site.data.languages.en.icon }}" alt="{{ site.data.languages.en.label }}">
+          {{ site.data.languages.en.label }}</a></li>
+        <li><a href="{{ de_url | relative_url }}">
+          <img class="uk-lang-icon" src="{{ site.uploads | absolute_url }}{{ site.data.languages.de.icon }}" alt="{{ site.data.languages.de.label }}">
+          {{ site.data.languages.de.label }}</a></li>
         </ul>
 
       <a class="uk-navbar-toggle uk-hidden@l" href="#nav-mobile" data-uk-toggle>
