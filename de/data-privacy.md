@@ -5,17 +5,14 @@ width: small
 ---
 
 #### Betreiber
-Technische Universität München  
-Lehrstuhl für Siedlungsstruktur und Verkehrsplanung
-
-#### Addresse
-Arcisstraße 21  
+Plan4Better GmbH  
+Augustenstraße 49  
 80333 München  
 Deutschland
 
 #### Kontakt
-Email: elias.pajares@tum.de  
-Telefon: +49 89 289 22538
+Email: info@plan4better.de  
+Telephone: +49 89 2000 708 30
 
 
 ## Datenschutzerklärung
@@ -34,15 +31,14 @@ III. Informationen zur Datenverarbeitung
 ### I. Informationen über uns als Verantwortliche  
 Verantwortlicher Anbieter dieses Internetauftritts im datenschutzrechtlichen Sinne ist:
 
-Technische Universität München  
-Lehrstuhl für Siedlungsstruktur und Verkehrsplanung
-Arcisstraße 21  
+Plan4Better GmbH  
+Augustenstraße 49  
 80333 München  
-Germany
+Deutschland
 
 Datenschutzbeauftragte/r beim Anbieter ist:
 
-Email: elias.pajares@tum.de  
+Email: elias.pajares@plan4better.de  
 Elias Pajares 
 
 ### II. Rechte der Nutzer und Betroffenen

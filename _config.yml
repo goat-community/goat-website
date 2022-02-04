@@ -5,7 +5,7 @@
 # If you change this file, please restart the server process.
 
 # Site settings
-title:                  Open Accessibility
+title:                  
 description:            Here you can work with the dynamic, interactive and open accessibility planning tool GOAT. This makes it a great instrument for walking and cycling.
 url:                    # Site base hostname & protocol, e.g. http://example.com
 baseurl:                # Site subpath, e.g. /blog
@@ -31,7 +31,7 @@ navbar:
   search:               false
 
 footer:                 
-  copyright:            Open Accessibility 2021 | All Rights Reserved
+  copyright:            Open Accessibility 2022 | All Rights Reserved
   logos:
     - image:            logo-tum.png
       url:              https://www.bgu.tum.de/sv/startseite/
