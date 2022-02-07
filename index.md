@@ -7,6 +7,7 @@ alert:
 
 header:
   background_image: eddie-junior-contributions.png
+  background_image_attribute: "Image: Eddie Junior on www.unsplash.com"
   header_size: large
   heading_size: small
   title: Welcome to the project website of GOAT!
