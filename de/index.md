@@ -16,22 +16,22 @@ header:
 what:
   title: Was ist GOAT?
   image: heatmap.png
-  description: Das Geo Open Accessibility Tool, kurz GOAT, ist ein interaktives, dynamisches und datengestütztes Open-Source-Webtool für die Erreichbarkeitsplanung. Mit GOAT können Erreichbarkeitsanalysen zu Fuß und mit dem Fahrrad modelliert werden. Das Tool wird regelmäßig weiterentwickelt, um die Analyseoptionen zu erweitern und zusätzliche Funktionen hinzuzufügen. 
+  description: GOAT ist ein interaktives, dynamisches und datengestütztes Planungswerkzeug für die Erreichbarkeitsplanung. Es wird von einer aktiven Community als Open-Source-Projekt entwickelt. Mit GOAT können Erreichbarkeitsanalysen mit verschiedenen Verkehrsmitteln modelliert werden und es werden regelmäßig neue Funktionen entwickelt, sowie bestehende verbessert. 
 
 project:
   title: Projektablauf
   image: timeline_grey.png
-  description: Seit 2017 arbeiten wir an der Entwicklung von GOAT. Der bisher größte Meilenstein war der Release der Version 1.0 mit dem Abschluss des mFUND Förderlinie 1 Projekts Anfang 2021. Derzeit werden im Rahmen des 3-jährigen Projektes "GOAT 3.0" (mFUND Förderlinie 2) zahlreiche neue Features in einem ko-kreativen Prozess entwickelt. 
+  description: Seit 2017 wird an der Entwicklung von GOAT gearbeitet. Der bisher größte Meilenstein war der Release der Version 1.0 und die Gründung von Plan4Better als Core-Entwickler, sowie Vertreiber der Software. Derzeit werden im Rahmen des 3-jährigen Projektes "GOAT 3.0" (mFUND Förderlinie 2) zahlreiche neue Features in einem ko-kreativen Prozess entwickelt. 
 
 aim:
   title: GOAT 3.0 - Ziele
   image: goat_3.png
-  description: Mit GOAT 3.0 werden u.a. Erreichbarkeitsanalysen für den öffentlichen Nahverkehr, das Auto sowie für on-demand Angebote und intermodale Wegeketten (B+R, P+R) ermöglicht. Außerdem werden weitere Indikatoren, wie ein 15-Minuten-Stadt Indikator, und Analyseoptionen für die Planung von Grün- und Freiräumen entwickelt. Durch die Integration von zusätzlichen räumlichen Datensätzen und eine smarte Visualisierung werden die Analysen komplettiert.
+  description: Mit GOAT 3.0 werden u.a. Erreichbarkeitsanalysen für den öffentlichen Nahverkehr, das Auto sowie für On-Demand-Verkehre und intermodale Wegeketten (B+R, P+R) ermöglicht. Außerdem werden weitere Indikatoren, wie ein 15-Minuten-Stadt Indikator, und Analyseoptionen für die Planung von Grün- und Freiräumen entwickelt. Durch die Integration von zusätzlichen räumlichen Datensätzen und eine smarte Visualisierung werden die Analysen komplettiert.
 
 team:
   title: GOAT 3.0 - Projektteam
   image: projectteam_grey.png
-  description: Unser diverses Projektkonsortium - die Technische Universität München (TUM), die Plan4Better GmbH (P4B), das Leibniz-Institut für ökologische Raumentwicklung Dresden (IÖR), die Prof. Schaller UmweltConsult GmbH (PSU) und der Münchner Verkehrs- und Tarifverbund GmbH (MVV) - beinhaltet Experten aus der Erreichbarkeitsplanung, der GIS-Entwicklung, der Grünraumplanung, dem ÖPNV-Ausbau und vieles mehr. 
+  description: Unser diverses Projektkonsortium - die Technische Universität München (TUM), die Plan4Better GmbH (P4B), das Leibniz-Institut für ökologische Raumentwicklung Dresden (IÖR), die Prof. Schaller UmweltConsult GmbH (PSU) und der Münchner Verkehrs- und Tarifverbund GmbH (MVV) - beinhaltet Experten:innen aus der Erreichbarkeitsplanung, der GIS-Entwicklung, der Grünraumplanung, dem ÖPNV-Ausbau und vielem mehr. 
 
 
 #why:
