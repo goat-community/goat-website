@@ -20,7 +20,7 @@ what:
 
 project:
   title: Projektablauf
-  image: timeline_grey.png
+  image: timeline_grey_de.png
   description: Seit 2017 wird an der Entwicklung von GOAT gearbeitet. Der bisher größte Meilenstein war der Release der Version 1.0 und die Gründung von Plan4Better als Core-Entwickler, sowie Vertreiber der Software. Derzeit werden im Rahmen des 3-jährigen Projektes "GOAT 3.0" (mFUND Förderlinie 2) zahlreiche neue Features in einem ko-kreativen Prozess entwickelt. 
 
 aim:
