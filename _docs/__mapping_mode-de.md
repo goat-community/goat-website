@@ -8,8 +8,9 @@ Welcome and thank you for your interest in contributing to the quality of open d
 In the following, you will find the steps to use GOAT’s editing tool “OSM Mapping Mode”.
 
 #### 1. Open GOAT OSM Mapping Mode
-First choose the desired GOAT location [here](https://www.open-accessibility.org/versions).
-In the tool, you will notice the OSM logo in the right-bottom corner.
+First, open you GOAT version. In the tool, you will notice the OSM logo in the right-bottom corner.
+
+-- Note: this feature is only enabled for some of the online versions of GOAT -- 
 
 {% include image.html src="docs/mapping_mode/mapping_mode.png" alt="Activate the OSM Mapping Mode" title="OSM Mapping Mode" %}
 
