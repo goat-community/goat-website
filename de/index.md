@@ -10,18 +10,18 @@ header:
   background_image_attribute: "Image: Eddie Junior on www.unsplash.com"
   header_size: large
   heading_size: small
-  title: Welcome to the project website of GOAT!
+  title: Willkommen zur Projekt-Webseite von GOAT!
   subtitle:
-  image: isochrone_amenities.png
+  image: isochrone_de.jpg
 
 what:
   title: Was ist GOAT?
-  image: heatmap.png
+  image: grundschulen_small.jpg
   description: GOAT ist ein interaktives, dynamisches und datengestütztes Planungswerkzeug für die Erreichbarkeitsplanung. Es wird von einer aktiven Community als Open-Source-Projekt entwickelt. Mit GOAT können Erreichbarkeitsanalysen mit verschiedenen Verkehrsmitteln modelliert werden und es werden regelmäßig neue Funktionen entwickelt, sowie bestehende verbessert. 
 
 project:
   title: Projektablauf
-  image: timeline_grey.png
+  image: timeline_grey_de.png
   description: Seit 2017 wird an der Entwicklung von GOAT gearbeitet. Der bisher größte Meilenstein war der Release der Version 1.0 und die Gründung von Plan4Better als Core-Entwickler, sowie Vertreiber der Software. Derzeit werden im Rahmen des 3-jährigen Projektes "GOAT 3.0" (mFUND Förderlinie 2) zahlreiche neue Features in einem ko-kreativen Prozess entwickelt. 
 
 aim:

@@ -33,9 +33,7 @@ navbar:
 footer:                 
   copyright:            Open Accessibility 2022 | All Rights Reserved
   logos:
-    - image:            logo-tum.png
-      url:              https://www.bgu.tum.de/sv/startseite/
-    - image:            logo-bmvi.png
+    - image:            logo-bmdv.png
       url:              https://www.bmvi.de/DE/Home/home.html
     - image:            logo-mfund.png
       url:              https://www.bmvi.de/SharedDocs/DE/Artikel/DG/mfund-projekte/GOAT.html

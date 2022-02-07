@@ -1,7 +1,7 @@
 ---
 title: Background
-permalink: /docs/background/
-#lang: en
+permalink: /de/docs/background/
+lang: de
 ---
 
 ### Active mobility matters!
