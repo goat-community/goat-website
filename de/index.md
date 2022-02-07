@@ -9,13 +9,13 @@ header:
   background_image: eddie-junior-contributions.png
   header_size: large
   heading_size: small
-  title: Welcome to the project website of GOAT!
+  title: Willkommen zur Projekt-Webseite von GOAT!
   subtitle:
-  image: isochrone_amenities.png
+  image: isochrone_de.jpg
 
 what:
   title: Was ist GOAT?
-  image: heatmap.png
+  image: grundschulen_small.jpg
   description: GOAT ist ein interaktives, dynamisches und datengestütztes Planungswerkzeug für die Erreichbarkeitsplanung. Es wird von einer aktiven Community als Open-Source-Projekt entwickelt. Mit GOAT können Erreichbarkeitsanalysen mit verschiedenen Verkehrsmitteln modelliert werden und es werden regelmäßig neue Funktionen entwickelt, sowie bestehende verbessert. 
 
 project:
