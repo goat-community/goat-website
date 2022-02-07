@@ -6,12 +6,12 @@ alert:
   #content: "Hey, we founded a startup called Plan4Better! The team will continue to develop this open source project further. Part of the content is now managed on the new [Plan4Better website](https://plan4better.de/)."
 
 header:
-  background_color: "rgb(190, 237, 220)"
+  background_image: eddie-junior-contributions.png
   header_size: large
   heading_size: small
-  title: Willkommen zur Projektwebseite von GOAT!
+  title: Welcome to the project website of GOAT!
   subtitle:
-  image: eddie-junior-contributions.png
+  image: isochrone_amenities.png
 
 what:
   title: Was ist GOAT?
