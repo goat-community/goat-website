@@ -17,12 +17,12 @@ header:
 what:
   title: Was ist GOAT?
   image: grundschulen_small.jpg
-  description: GOAT ist ein interaktives, dynamisches und datengestütztes Planungswerkzeug für die Erreichbarkeitsplanung. Es wird von einer aktiven Community als Open-Source-Projekt entwickelt. Mit GOAT können Erreichbarkeitsanalysen mit verschiedenen Verkehrsmitteln modelliert werden und es werden regelmäßig neue Funktionen entwickelt, sowie bestehende verbessert. 
+  description: GOAT ist ein interaktives, dynamisches und datengestütztes Planungswerkzeug für die Erreichbarkeitsplanung. Es wird von einer aktiven Community als Open-Source-Projekt entwickelt. Mit GOAT können Erreichbarkeitsanalysen mit verschiedenen Verkehrsmitteln berechnet werden. Regelmäßig kommen neue Funktionen und Verbesserungen hinzu. 
 
 project:
   title: Projektablauf
   image: timeline_grey_de.png
-  description: Seit 2017 wird an der Entwicklung von GOAT gearbeitet. Der bisher größte Meilenstein war der Release der Version 1.0 und die Gründung von Plan4Better als Core-Entwickler, sowie Vertreiber der Software. Derzeit werden im Rahmen des 3-jährigen Projektes "GOAT 3.0" (mFUND Förderlinie 2) zahlreiche neue Features in einem ko-kreativen Prozess entwickelt. 
+  description: Seit 2017 wird an der Entwicklung von GOAT gearbeitet. Der bisher größte Meilenstein war der Release der Version 1.0 und die Gründung von [Plan4Better](https://plan4better.de) als Core-Entwickler, sowie Vertreiber der Software. Derzeit werden im Rahmen des 3-jährigen Projektes "GOAT 3.0" (mFUND Förderlinie 2) zahlreiche neue Features in einem ko-kreativen Prozess entwickelt. 
 
 aim:
   title: GOAT 3.0 - Ziele
@@ -32,7 +32,7 @@ aim:
 team:
   title: GOAT 3.0 - Projektteam
   image: projectteam_grey.png
-  description: Unser diverses Projektkonsortium - die Technische Universität München (TUM), die Plan4Better GmbH (P4B), das Leibniz-Institut für ökologische Raumentwicklung Dresden (IÖR), die Prof. Schaller UmweltConsult GmbH (PSU) und der Münchner Verkehrs- und Tarifverbund GmbH (MVV) - beinhaltet Experten:innen aus der Erreichbarkeitsplanung, der GIS-Entwicklung, der Grünraumplanung, dem ÖPNV-Ausbau und vielem mehr. 
+  description: Unser diverses Projektkonsortium - die [Technische Universität München (TUM)](https://www.mos.ed.tum.de/en/sv/homepage/), die [Plan4Better GmbH (P4B)](https://plan4better.de)], das [Leibniz-Institut für ökologische Raumentwicklung Dresden (IÖR)](https://www.ioer.de/), die [Prof. Schaller UmweltConsult GmbH (PSU)](https://www.psu-schaller.de/) und der [Münchner Verkehrs- und Tarifverbund GmbH (MVV)](https://www.mvv-muenchen.de/) - beinhaltet Experten:innen aus der Erreichbarkeitsplanung, der GIS-Entwicklung, der Grünraumplanung, dem ÖPNV-Ausbau und vielem mehr. 
 
 
 #why:
