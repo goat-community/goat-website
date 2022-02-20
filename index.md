@@ -15,24 +15,24 @@ header:
   image: isochrone_en.jpg
 
 what:
-  title: Was ist GOAT?
+  title: What is GOAT?
   image: grundschulen_small.jpg
-  description: GOAT ist ein interaktives, dynamisches und datengestütztes Planungswerkzeug für die Erreichbarkeitsplanung. Es wird von einer aktiven Community als Open-Source-Projekt entwickelt. Mit GOAT können Erreichbarkeitsanalysen mit verschiedenen Verkehrsmitteln modelliert werden und es werden regelmäßig neue Funktionen entwickelt, sowie bestehende verbessert. 
+  description: GOAT is an interactive, dynamic and data-driven planning tool for accessibility planning. It is developed by an active community as an open source project. With GOAT, accessibility analyses can be calculated for different modes of transport. New functions and improvements are added on a regular basis. 
 
 project:
-  title: Projektablauf
+  title: Project process
   image: timeline_grey.png
-  description: Seit 2017 wird an der Entwicklung von GOAT gearbeitet. Der bisher größte Meilenstein war der Release der Version 1.0 und die Gründung von Plan4Better als Core-Entwickler, sowie Vertreiber der Software. Derzeit werden im Rahmen des 3-jährigen Projektes "GOAT 3.0" (mFUND Förderlinie 2) zahlreiche neue Features in einem ko-kreativen Prozess entwickelt. 
+  description: Work on the development of GOAT has been ongoing since 2017. The biggest milestone so far was the release of version 1.0 and the founding of  [Plan4Better](https://plan4better.de) as core developer, as well as distributor of the software. Currently, numerous new features are being developed in a co-creative process as part of the 3-year project "GOAT 3.0" (mFUND funding line 2). 
 
 aim:
-  title: GOAT 3.0 - Ziele
+  title: GOAT 3.0 - Objectives
   image: goat_3.png
-  description: Mit GOAT 3.0 werden u.a. Erreichbarkeitsanalysen für den öffentlichen Nahverkehr, das Auto sowie für On-Demand-Verkehre und intermodale Wegeketten (B+R, P+R) ermöglicht. Außerdem werden weitere Indikatoren, wie ein 15-Minuten-Stadt Indikator, und Analyseoptionen für die Planung von Grün- und Freiräumen entwickelt. Durch die Integration von zusätzlichen räumlichen Datensätzen und eine smarte Visualisierung werden die Analysen komplettiert.
+  description: GOAT 3.0 will enable, among other things, accessibility analyses for public transport, the car as well as for on-demand transport and intermodal route chains (B+R, P+R). In addition, further indicators, such as a 15-minute city indicator, and analysis options for the planning of green and open spaces will be developed. The integration of additional spatial data sets and smart visualisation will complete the analysis options.
 
 team:
-  title: GOAT 3.0 - Projektteam
+  title: GOAT 3.0 - Project team
   image: projectteam_grey.png
-  description: Unser diverses Projektkonsortium - die Technische Universität München (TUM), die Plan4Better GmbH (P4B), das Leibniz-Institut für ökologische Raumentwicklung Dresden (IÖR), die Prof. Schaller UmweltConsult GmbH (PSU) und der Münchner Verkehrs- und Tarifverbund GmbH (MVV) - beinhaltet Experten:innen aus der Erreichbarkeitsplanung, der GIS-Entwicklung, der Grünraumplanung, dem ÖPNV-Ausbau und vielem mehr. 
+  description: Our diverse project consortium - the [Technical University of Munich (TUM)]((https://www.mos.ed.tum.de/en/sv/homepage/)), the [Plan4Better GmbH (P4B)](https://plan4better.de/en/), the [Leibniz Institute of Ecological Urban and Regional Development Dresden (IÖR)](https://www.ioer.de/en/), the [Prof. Schaller UmweltConsult GmbH (PSU)](https://www.psu-schaller.de/?l=en) and the [Munich Transport and Tariff Association (MVV)](https://www.mvv-muenchen.de/en/index.html) - includes experts from accessibility planning, GIS development, green space planning, public transport expansion and much more. 
 
 info: 
   title: Searching for the tutorials? Interested in live applications?
