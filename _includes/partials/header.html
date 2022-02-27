@@ -69,7 +69,7 @@
 {% endif %}
 
 {% if page.layout == 'home' %}
-  <div class="uk-position-relative{% if background_image %} uk-background-{{ page.header.background_align | default: 'center-center' }} uk-background-cover{% endif %}" style="{% if page.header.background_color contains '#' or page.header.background_color contains 'rgb' %}background: {{ page.header.background_color }};{% endif %}{% if background_image %}background-image: url({% if background_image contains 'http' %}{{ background_image }}{% else %}{{ site.uploads | absolute_url }}{{ background_image }}{% endif %});{% endif %}"{% if page.header.height == 'full' %} data-uk-height-viewport{% endif %}>
+  <div class="uk-overlay-primary uk-position-relative{% if background_image %} uk-background-{{ page.header.background_align | default: 'center-center' }} uk-background-cover{% endif %}" style="{% if page.header.background_color contains '#' or page.header.background_color contains 'rgb' %}background: {{ page.header.background_color }};{% endif %}{% if background_image %}background-image: url({% if background_image contains 'http' %}{{ background_image }}{% else %}{{ site.uploads | absolute_url }}{{ background_image }}{% endif %});{% endif %}"{% if page.header.height == 'full' %} data-uk-height-viewport{% endif %}>
     {%- if page.header.background_video -%}
     <div class="uk-position-cover uk-cover-container">
       <video autoplay loop muted playsinline data-uk-cover>
@@ -77,8 +77,8 @@
       </video>
     </div>
     {%- endif -%}
-    <div class="uk-position-cover" style="{% if page.header.background_overlay %} background: {{ page.header.background_overlay }};{% endif %}"></div>
-
+    <div class="uk-position-cover uk-overlay-primary" style="{% if page.header.background_overlay %} background: {{ page.header.background_overlay }};{% endif %}"></div>
+    <div class="uk-position-bottom-right uk-margin-small-right">{{ page.header.background_image_attribute }}</div>
     <div class="uk-position-relative uk-container{% if page.header.container %} uk-container-{{ page.header.container }}{% endif %}{% if page.header.height == 'full' %} uk-flex uk-flex-middle{% endif %}"{% if page.header.height == 'full' %} data-uk-height-viewport="offset-top: true"{% endif %}>
       <div class="uk-section uk-section-{{ page.header.header_size | default: 'regular' }}{% if page.header.header_padding_remove %} uk-padding-remove-{{ page.header.header_padding_remove }}{% endif %} uk-width-1-1 uk-{{ page.header.color | default: 'dark' }}"{% if page.header.parallax %} data-uk-parallax="y: 100;"{% endif %}>
         <div class="uk-flex uk-flex-middle uk-flex-center@m" data-uk-grid>
