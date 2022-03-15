@@ -3,7 +3,9 @@ lang: en
 layout: home
 width: full
 alert:
-  #content: "Hey, we founded a startup called Plan4Better! The team will continue to develop this open source project further. Part of the content is now managed on the new [Plan4Better website](https://plan4better.de/)."
+
+#content: "Hey, we founded a startup called Plan4Better! The team will continue to develop this open source project further. Part of the content is now managed on the new [Plan4Better website](https://plan4better.de/)."
+
 
 header:
   background_image: eddie-junior-contributions.png
