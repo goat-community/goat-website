@@ -2,8 +2,8 @@
 lang: en
 layout: home
 width: full
-alert:
-  content: "Want to help us in the development of new indicators? Participate in our [Survey](https://www.umfrage.sv.bgu.tum.de/index.php/461849)!"
+#alert:
+  #content: ""
 
 
 header:
