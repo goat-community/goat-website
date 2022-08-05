@@ -2,8 +2,8 @@
 lang: de
 layout: home
 width: full
-alert:
-  content: "Wollen Sie uns bei der Entwicklung neuer Indikatoren unterstützen? Machen Sie mit bei unserer [Umfrage](https://www.umfrage.sv.bgu.tum.de/index.php/461849)!"
+#alert:
+  #content: ""
 
 header:
   background_image: eddie-junior-contributions.png
