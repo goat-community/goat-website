@@ -13,11 +13,11 @@ header:
   heading_size: small
   title: Welcome to the project website of GOAT!
   subtitle:
-  image: isochrone_en.jpg
+  image: isochrone.png
 
 what:
   title: What is GOAT?
-  image: grundschulen_small.jpg
+  image: heatmap.png
   description: GOAT is an interactive, dynamic and data-driven planning tool for accessibility planning. It is developed by an active community as an open source project. With GOAT, accessibility analyses can be calculated for different modes of transport. New functions and improvements are added on a regular basis. 
 
 project:
