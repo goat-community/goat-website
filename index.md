@@ -32,7 +32,11 @@ aim:
 
 team:
   title: GOAT 3.0 - Project team
-  image: projectteam_grey.png
+  logo_ioer: logo_ioer.png
+  logo_mvv: logo_mvv.png
+  logo_p4b: logo_p4b.png
+  logo_psu: logo_psu.png
+  logo_tum: logo_tum.svg
   description: Our diverse project consortium - the [Technical University of Munich (TUM)]((https://www.mos.ed.tum.de/en/sv/homepage/)), the [Plan4Better GmbH (P4B)](https://plan4better.de/en/), the [Leibniz Institute of Ecological Urban and Regional Development Dresden (IÖR)](https://www.ioer.de/en/), the [Prof. Schaller UmweltConsult GmbH (PSU)](https://www.psu-schaller.de/?l=en) and the [Munich Transport and Tariff Association (MVV)](https://www.mvv-muenchen.de/en/index.html) - includes experts from accessibility planning, GIS development, green space planning, public transport expansion and much more. 
 
 info: 

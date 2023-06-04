@@ -10,7 +10,8 @@ layout: default
       <div>
         <div class="uk-card uk-card-large uk-card-none uk-grid-collapse uk-margin" data-uk-grid>
           <div class="uk-flex-last@m uk-card-media-right uk-width-1-2@m">
-            <img data-src="{% if page.what.image contains 'http' %}{{ page.what.image }}{% else %}{{ site.uploads | absolute_url }}{{ page.what.image }}{% endif %}"
+            <img
+              data-src="{% if page.what.image contains 'http' %}{{ page.what.image }}{% else %}{{ site.uploads | absolute_url }}{{ page.what.image }}{% endif %}"
               alt="{{ page.what.title }}" class="uk-box-shadow-large" data-uk-img>
           </div>
           <div class="uk-flex uk-flex-middle uk-width-expand@m">
@@ -31,7 +32,8 @@ layout: default
       <div>
         <div class="uk-card uk-card-large uk-card-none uk-grid-collapse uk-margin" data-uk-grid>
           <div class="uk-card-media-left uk-width-1-2@m">
-            <img data-src="{% if page.project.image contains 'http' %}{{ page.project.image }}{% else %}{{ site.uploads | absolute_url }}{{ page.project.image }}{% endif %}"
+            <img
+              data-src="{% if page.project.image contains 'http' %}{{ page.project.image }}{% else %}{{ site.uploads | absolute_url }}{{ page.project.image }}{% endif %}"
               alt="{{ page.project.title }}" class="uk-box-shadow-large" data-uk-img>
           </div>
           <div class="uk-flex uk-flex-middle uk-width-expand@m">
@@ -52,7 +54,8 @@ layout: default
       <div>
         <div class="uk-card uk-card-large uk-card-none uk-grid-collapse uk-margin" data-uk-grid>
           <div class="uk-flex-last@m uk-card-media-right uk-width-1-2@m">
-            <img data-src="{% if page.aim.image contains 'http' %}{{ page.aim.image }}{% else %}{{ site.uploads | absolute_url }}{{ page.aim.image }}{% endif %}"
+            <img
+              data-src="{% if page.aim.image contains 'http' %}{{ page.aim.image }}{% else %}{{ site.uploads | absolute_url }}{{ page.aim.image }}{% endif %}"
               alt="{{ page.aim.title }}" class="uk-box-shadow-large" data-uk-img>
           </div>
           <div class="uk-flex uk-flex-middle uk-width-expand@m">
@@ -72,9 +75,28 @@ layout: default
     <div class="uk-child-width-expand@m uk-grid-match uk-flex-center" data-uk-grid>
       <div>
         <div class="uk-card uk-card-large uk-card-none uk-grid-collapse uk-margin" data-uk-grid>
-          <div class="uk-card-media-left uk-width-1-2@m">
-            <img data-src="{% if page.team.image contains 'http' %}{{ page.team.image }}{% else %}{{ site.uploads | absolute_url }}{{ page.team.image }}{% endif %}"
-              alt="{{ page.team.title }}" class="uk-box-shadow-large" data-uk-img>
+          <div class="uk-card-media-left uk-width-1-2@m uk-box-shadow-large"
+            style="background-color: #ededed;display: flex; align-items: center; justify-content: flex-start; flex-direction: row;flex-wrap: wrap;width: 400px;column-gap: 50px; padding: 20px">
+            <a href=" https://www.ioer.de/en/" target="_blank">
+              <img src="{{ site.uploads | absolute_url }}{{ page.team.logo_ioer }}" alt="{{ page.team.title }}"
+                data-uk-img width="160px">
+            </a>
+            <a href="https://www.psu-schaller.de/?l=en" target="_blank">
+              <img src="{{ site.uploads | absolute_url }}{{ page.team.logo_psu }}" alt="{{ page.team.title }}"
+                data-uk-img width="120px">
+            </a>
+            <a href="https://www.ioer.de/en/" target="_blank">
+              <img src="{{ site.uploads | absolute_url }}{{ page.team.logo_tum }}" alt="{{ page.team.title }}"
+                data-uk-img width="150px">
+            </a>
+            <a href="https://www.mvv-muenchen.de/en/index.html" target="_blank">
+              <img src="{{ site.uploads | absolute_url }}{{ page.team.logo_mvv }}" alt="{{ page.team.title }}"
+                data-uk-img width="150px" height="30px">
+            </a>
+            <a href="https://plan4better.de/en/" target="_blank">
+              <img src="{{ site.uploads | absolute_url }}{{ page.team.logo_p4b }}" alt="{{ page.team.title }}"
+                data-uk-img width="190px" height="20px">
+            </a>
           </div>
           <div class="uk-flex uk-flex-middle uk-width-expand@m">
             <div class="uk-card-body">
