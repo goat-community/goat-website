@@ -1,119 +1,185 @@
 {% if page.navbar.transparent_color %}
-  {% assign transparent_color = page.navbar.transparent_color %}
+{% assign transparent_color = page.navbar.transparent_color %}
 {% else %}
-  {% assign transparent_color = site.navbar.color %}
+{% assign transparent_color = site.navbar.color %}
 {% endif %}
 
 {% if page.navbar.color %}
-  {% assign color = page.navbar.color %}
+{% assign color = page.navbar.color %}
 {% else %}
-  {% assign color = site.navbar.color %}
+{% assign color = site.navbar.color %}
 {% endif %}
 
 {% if page.navbar.sticky == true %}
-  {% assign sticky = true %}
+{% assign sticky = true %}
 {% elsif page.navbar.sticky != false %}
-  {% if site.navbar.sticky %}
-    {% assign sticky = true %}
-  {% else %}
-    {% assign sticky = false %}
-  {% endif %}
+{% if site.navbar.sticky %}
+{% assign sticky = true %}
+{% else %}
+{% assign sticky = false %}
+{% endif %}
 {% endif %}
 
 {% if page.navbar.scroll_up %}
-  {% assign scroll_up = true %}
+{% assign scroll_up = true %}
 {% elsif page.navbar.scroll_up != false %}
-  {% if site.navbar.scroll_up %}
-    {% assign scroll_up = true %}
-  {% else %}
-    {% assign scroll_up = false %}
-  {% endif %}
+{% if site.navbar.scroll_up %}
+{% assign scroll_up = true %}
+{% else %}
+{% assign scroll_up = false %}
+{% endif %}
 {% endif %}
 
 {% if page.navbar.animation %}
-  {% assign animation = true %}
+{% assign animation = true %}
 {% elsif page.navbar.animation != false %}
-  {% if site.navbar.animation %}
-    {% assign animation = true %}
-  {% else %}
-    {% assign animation = false %}
-  {% endif %}
+{% if site.navbar.animation %}
+{% assign animation = true %}
+{% else %}
+{% assign animation = false %}
+{% endif %}
 {% endif %}
 
 {% if page.layout =='post' and page.header.background_image %}
-  {% assign background_image = page.header.background_image %}
+{% assign background_image = page.header.background_image %}
 {% elsif page.layout =='post' and page.image %}
-  {% assign background_image = page.image %}
+{% assign background_image = page.image %}
 {% else %}
-  {% assign background_image = page.header.background_image %}
+{% assign background_image = page.header.background_image %}
 {% endif %}
 
 
 {% assign page_lang = page.lang | default: site.lang %}
 {% if sticky %}
 
-  <div data-uk-sticky="{% if scroll_up %}show-on-up: true; {% endif %}{% if animation %}animation: uk-animation-slide-top; top: 200; {% endif %}sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky navbar-background uk-{{ color | default: 'dark' }}; cls-inactive: {% if page.navbar.transparent %}uk-navbar-transparent uk-{{ transparent_color | default: 'dark' }}{% else %}navbar-background uk-{{ color | default: 'dark' }}{% endif %}">
-    {% if page.alert %}
-    <div class="uk-alert-large-size uk-text-center uk-background-danger uk-light uk-margin-remove" data-uk-alert>
-      {{ page.alert.content | markdownify }}
-    </div>
-    {% endif %}
-    <nav class="uk-navbar-container">
-      {% include partials/navbar-default.html %}
-    </nav>
+<div
+  data-uk-sticky="{% if scroll_up %}show-on-up: true; {% endif %}{% if animation %}animation: uk-animation-slide-top; top: 200; {% endif %}sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky navbar-background uk-{{ color | default: 'dark' }}; cls-inactive: {% if page.navbar.transparent %}uk-navbar-transparent uk-{{ transparent_color | default: 'dark' }}{% else %}navbar-background uk-{{ color | default: 'dark' }}{% endif %}">
+  {% if page.alert %}
+  <div class="uk-alert-large-size uk-text-center uk-background-danger uk-light uk-margin-remove" data-uk-alert>
+    {{ page.alert.content | markdownify }}
   </div>
-{% else %}
-  <nav class="uk-navbar-container {% if page.navbar.transparent %}uk-navbar-transparent uk-{{ transparent_color | default: 'dark' }}{% else %}navbar-background uk-{{ color | default: 'dark' }}{% endif %}">
+  {% endif %}
+  <nav class="uk-navbar-container">
     {% include partials/navbar-default.html %}
   </nav>
+</div>
+{% else %}
+<nav
+  class="uk-navbar-container {% if page.navbar.transparent %}uk-navbar-transparent uk-{{ transparent_color | default: 'dark' }}{% else %}navbar-background uk-{{ color | default: 'dark' }}{% endif %}">
+  {% include partials/navbar-default.html %}
+</nav>
 {% endif %}
 
 {% if page.layout == 'home' %}
-  <div class="uk-overlay-primary uk-position-relative{% if background_image %} uk-background-{{ page.header.background_align | default: 'center-center' }} uk-background-cover{% endif %}" style="{% if page.header.background_color contains '#' or page.header.background_color contains 'rgb' %}background: {{ page.header.background_color }};{% endif %}{% if background_image %}background-image: url({% if background_image contains 'http' %}{{ background_image }}{% else %}{{ site.uploads | absolute_url }}{{ background_image }}{% endif %});{% endif %}"{% if page.header.height == 'full' %} data-uk-height-viewport{% endif %}>
-    {%- if page.header.background_video -%}
-    <div class="uk-position-cover uk-cover-container">
-      <video autoplay loop muted playsinline data-uk-cover>
-        <source src="{% if page.header.background_video contains 'http' %}{{ page.header.background_video }}{% else %}{{ site.uploads | absolute_url }}{{ page.header.background_video }}{% endif %}" type="video/mp4">
-      </video>
-    </div>
-    {%- endif -%}
-    <div class="uk-position-cover uk-overlay-primary" style="{% if page.header.background_overlay %} background: {{ page.header.background_overlay }};{% endif %}"></div>
-    <div class="uk-position-bottom-right uk-margin-small-right">{{ page.header.background_image_attribute }}</div>
-    <div class="uk-position-relative uk-container{% if page.header.container %} uk-container-{{ page.header.container }}{% endif %}{% if page.header.height == 'full' %} uk-flex uk-flex-middle{% endif %}"{% if page.header.height == 'full' %} data-uk-height-viewport="offset-top: true"{% endif %}>
-      <div class="uk-section uk-section-{{ page.header.header_size | default: 'regular' }}{% if page.header.header_padding_remove %} uk-padding-remove-{{ page.header.header_padding_remove }}{% endif %} uk-width-1-1 uk-{{ page.header.color | default: 'dark' }}"{% if page.header.parallax %} data-uk-parallax="y: 100;"{% endif %}>
-        <div class="uk-flex uk-flex-middle uk-flex-center@m" data-uk-grid>
-          <div class="uk-width-1-2@m uk-width-2-3@l">
-            <img data-src="{% if page.header.image contains 'http' %}{{ page.header.image }}{% else %}{{ site.uploads | absolute_url }}{{ page.header.image }}{% endif %}"
-              alt="{{ page.header.title }}" class="uk-box-shadow-xlarge" data-uk-img>
-          </div>
-          <div class="uk-width-expand@m">
-            <h1 class="uk-h1 uk-text-spacing-small">{{ page.header.title }}</h1>
-            {% if page.header.subtitle %}
-              <div class="uk-text-lead">{{ page.header.subtitle }}</div>
-            {% endif %}
-            <div class="uk-margin-medium-top" data-uk-margin>
-              {% if page.header.button %}
-                {% if page.header.button.url contains 'http' %}
-                    {% assign button_domain = '' %}
-                {% else %}
-                    {% assign button_domain = page_lang.url | absolute_url %}
-                {% endif %}            
-                <a class="uk-button uk-button-primary uk-button-medium" href="{{ button_domain }}{{ page.header.button.url }}">{{ page.header.button.text }}</a>
-              {% endif %}
-              {% if page.header.button_2 %}
-                {% if page.header.button_2.url contains 'http' %}
-                    {% assign button_domain = '' %}
-                {% else %}
-                    {% assign button_domain = page_lang.url | absolute_url %}
-                {% endif %}            
-                <a class="uk-button uk-button-default uk-button-medium" href="{{ button_domain }}{{ page.header.button_2.url }}">{{ page.header.button_2.text }}</a>
-              {% endif %}
+<div
+  class="uk-overlay-primary uk-position-relative{% if background_image %} uk-background-{{ page.header.background_align | default: 'center-center' }} uk-background-cover{% endif %}"
+  style="{% if page.header.background_color contains '#' or page.header.background_color contains 'rgb' %}background: {{ page.header.background_color }};{% endif %}{% if background_image %}background-image: url({% if background_image contains 'http' %}{{ background_image }}{% else %}{{ site.uploads | absolute_url }}{{ background_image }}{% endif %});{% endif %}"
+  {% if page.header.height=='full' %} data-uk-height-viewport{% endif %}>
+  {%- if page.header.background_video -%}
+  <div class="uk-position-cover uk-cover-container">
+    <video autoplay loop muted playsinline data-uk-cover>
+      <source
+        src="{% if page.header.background_video contains 'http' %}{{ page.header.background_video }}{% else %}{{ site.uploads | absolute_url }}{{ page.header.background_video }}{% endif %}"
+        type="video/mp4">
+    </video>
+  </div>
+  {%- endif -%}
+  <div class="uk-position-cover uk-overlay-primary"
+    style="{% if page.header.background_overlay %} background: {{ page.header.background_overlay }};{% endif %}"></div>
+  <div class="uk-position-bottom-right uk-margin-small-right">{{ page.header.background_image_attribute }}</div>
+  <div
+    class="uk-position-relative uk-container{% if page.header.container %} uk-container-{{ page.header.container }}{% endif %}{% if page.header.height == 'full' %} uk-flex uk-flex-middle{% endif %}"
+    {% if page.header.height=='full' %} data-uk-height-viewport="offset-top: true" {% endif %}>
+    <div
+      class="uk-section uk-section-{{ page.header.header_size | default: 'regular' }}{% if page.header.header_padding_remove %} uk-padding-remove-{{ page.header.header_padding_remove }}{% endif %} uk-width-1-1 uk-{{ page.header.color | default: 'dark' }}"
+      {% if page.header.parallax %} data-uk-parallax="y: 100;" {% endif %}>
+      <div class="uk-flex uk-flex-middle uk-flex-center@m" data-uk-grid>
+        <div class="uk-width-1-2@m uk-width-2-3@l">
+          <h1 class="uk-h1 uk-text-spacing-small" style="max-width: 450px;">{{ page.header.title }}</h1>
+          <img
+            data-src="{% if page.header.image contains 'http' %}{{ page.header.image }}{% else %}{{ site.uploads | absolute_url }}{{ page.header.image }}{% endif %}"
+            alt="{{ page.header.title }}" class="uk-box-shadow-xlarge img-top" data-uk-img>
+        </div>
+        <div class="uk-width-expand@m">
+          <div class="uk-width-1-2@m uk-width-2-3@l mg-top-custom">
+            <!-- Button list -->
+            <div class="uk-margin-medium-top">
+              <a class="btn-customized uk-button uk-button-primary btn-s uk-margin-medium-bottom" type="button" style=""
+                href="#">Wiki</a>
+              <a class="btn-customized uk-button uk-button-primary uk-margin-medium-bottom" type="button" style=""
+                href="#">Github</a>
+              <a class="btn-customized uk-button uk-button-primary uk-margin-medium-bottom" type="button" style=""
+                href="#">Events</a>
+              <a class="btn-customized uk-button uk-button-primary uk-margin-medium-bottom" type="button" style=""
+                href="#">GOAT-Demo</a>
             </div>
           </div>
+        </div>
+
+        <style>
+          .btn-customized {
+            width: 100%;
+            background-color: #2bb382 !important;
+            color: white !important;
+            border-radius: 8px;
+            font-size: 20px;
+          }
+
+          .mg-top-custom {
+            margin-top: 50%;
+          }
+
+          .img-top {
+            width: 85%;
+          }
+
+          @media (max-width: 767px) {
+            .mg-top-custom {
+              margin-top: 0;
+            }
+
+            .img-top {
+              width: 100%;
+            }
+
+            /* Styles for mobile devices */
+            .uk-width-1-2\@m.uk-width-2-3\@l {
+              margin-top: 20%;
+            }
+
+            .uk-button {
+              margin-bottom: 10px;
+            }
+          }
+        </style>
+        {% if page.header.subtitle %}
+        <div class="uk-text-lead">{{ page.header.subtitle }}</div>
+        {% endif %}
+        <div class="uk-margin-medium-top" data-uk-margin>
+          {% if page.header.button %}
+          {% if page.header.button.url contains 'http' %}
+          {% assign button_domain = '' %}
+          {% else %}
+          {% assign button_domain = page_lang.url | absolute_url %}
+          {% endif %}
+          <a class="uk-button uk-button-primary uk-button-medium"
+            href="{{ button_domain }}{{ page.header.button.url }}">{{ page.header.button.text }}</a>
+          {% endif %}
+          {% if page.header.button_2 %}
+          {% if page.header.button_2.url contains 'http' %}
+          {% assign button_domain = '' %}
+          {% else %}
+          {% assign button_domain = page_lang.url | absolute_url %}
+          {% endif %}
+          <a class="uk-button uk-button-default uk-button-medium"
+            href="{{ button_domain }}{{ page.header.button_2.url }}">{{ page.header.button_2.text }}</a>
+          {% endif %}
         </div>
       </div>
     </div>
   </div>
+</div>
+</div>
 {% elsif page.layout == 'blog' %}
 
 {% elsif page.layout == 'doc' %}
@@ -121,29 +187,31 @@
 {% elsif page.layout == 'tutorial' %}
 
 {% elsif page.layout == 'post' %}
-  <div class="uk-section">
-    <div class="uk-container uk-container-small">
-      <div class="uk-position-relative uk-border-rounded uk-background-center-center uk-background-cover" style="{% if page.image %}background-image: url({% if page.image contains 'http' %}{{ page.image }}{% else %}{{ site.uploads | absolute_url }}{{ page.image }}{% endif %});{% endif %}">
-        <div class="uk-position-cover uk-border-rounded" style="background: {{ page.image_overlay | default: 'rgba(0, 0, 0, 0.5)' }};"></div>
-        <div class="uk-section uk-light uk-position-relative">
-          <h1 class=" uk-text-center uk-heading-small">{{ page.title }}</h1>
-          {% if page.subtitle %}
-            <div class="uk-text-lead uk-text-center">{{ page.subtitle }}</div>
-          {% endif %}
-          <div class="uk-flex uk-flex-center uk-margin-medium-top">
-            {% include post-meta.html %}
-          </div>
+<div class="uk-section">
+  <div class="uk-container uk-container-small">
+    <div class="uk-position-relative uk-border-rounded uk-background-center-center uk-background-cover"
+      style="{% if page.image %}background-image: url({% if page.image contains 'http' %}{{ page.image }}{% else %}{{ site.uploads | absolute_url }}{{ page.image }}{% endif %});{% endif %}">
+      <div class="uk-position-cover uk-border-rounded"
+        style="background: {{ page.image_overlay | default: 'rgba(0, 0, 0, 0.5)' }};"></div>
+      <div class="uk-section uk-light uk-position-relative">
+        <h1 class=" uk-text-center uk-heading-small">{{ page.title }}</h1>
+        {% if page.subtitle %}
+        <div class="uk-text-lead uk-text-center">{{ page.subtitle }}</div>
+        {% endif %}
+        <div class="uk-flex uk-flex-center uk-margin-medium-top">
+          {% include post-meta.html %}
         </div>
       </div>
     </div>
   </div>
+</div>
 {% else %}
-  <div class="uk-section uk-section-default">
-    <div class="uk-container uk-container-small">
-      <h1 class=" uk-text-center uk-heading-small">{{ page.title }}</h1>
-      {% if page.subtitle %}
-        <div class="uk-text-lead uk-text-center">{{ page.subtitle }}</div>
-      {% endif %}
-    </div>
+<div class="uk-section uk-section-default">
+  <div class="uk-container uk-container-small">
+    <h1 class=" uk-text-center uk-heading-small">{{ page.title }}</h1>
+    {% if page.subtitle %}
+    <div class="uk-text-lead uk-text-center">{{ page.subtitle }}</div>
+    {% endif %}
   </div>
+</div>
 {% endif %}
