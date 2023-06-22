@@ -1,6 +1,18 @@
 # Navbar menu navigation links
+- title: 
+    en: Events
+    de: Events
+  url: pages/events/
 
+- title: 
+    en: Publications
+    de: Publikationen
+  url: pages/publikationen/
 
+- title: 
+    en: Supporters
+    de: Unterstützer
+  url: pages/partner/
 
 
 

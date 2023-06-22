@@ -1,28 +1,4 @@
-- category: About
-  docs:
-  - background
-  - about
-  - technicalarchitecture
+
   #-subcategory: Subcategory Two
 
-- category: Technical Documentation
-  docs:
-  - quick_start_docker
-  - data_preparation
-  - population
-  - alphashape
-  - heatmap
-  - walkability population heatmap
-  - routing_profiles
-  
-
-- category: Contribute to OSM
-  docs:
-  - mapping_mode
-  - osm_tutorial
-  - complete_pois
-
-- category: Contribute to GOAT
-  docs:
-  - contribute_docs
 
