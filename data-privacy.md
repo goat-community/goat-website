@@ -7,8 +7,8 @@ width: small
 
 #### Operator
 Plan4Better GmbH  
-Augustenstraße 49  
-80333 München  
+Am Kartoffelgarten 14 
+81671 München
 Germany
 
 #### Contact
@@ -32,8 +32,8 @@ III. Information about the data processing
 The party responsible for this website (the "controller") for purposes of data protection law is:
 
 Plan4Better GmbH  
-Augustenstraße 49  
-80333 München  
+Am Kartoffelgarten 14 
+81671 München
 Germany
 
 The controller's data protection officer is:

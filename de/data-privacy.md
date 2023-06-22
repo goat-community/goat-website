@@ -6,8 +6,8 @@ width: small
 
 #### Betreiber
 Plan4Better GmbH  
-Augustenstraße 49  
-80333 München  
+Am Kartoffelgarten 14 
+81671 München
 Deutschland
 
 #### Kontakt
@@ -32,9 +32,9 @@ III. Informationen zur Datenverarbeitung
 Verantwortlicher Anbieter dieses Internetauftritts im datenschutzrechtlichen Sinne ist:
 
 Plan4Better GmbH  
-Augustenstraße 49  
-80333 München  
-Deutschland
+Am Kartoffelgarten 14 
+81671 München
+Deutschland 
 
 Datenschutzbeauftragte/r beim Anbieter ist:
 

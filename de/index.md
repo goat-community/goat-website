@@ -2,8 +2,8 @@
 lang: de
 layout: home
 width: full
-alert:
-  content: "Wollen Sie uns bei der Entwicklung neuer Indikatoren unterstützen? Machen Sie mit bei unserer [Umfrage](https://www.umfrage.sv.bgu.tum.de/index.php/461849)!"
+#alert:
+  #content: ""
 
 header:
   background_image: eddie-junior-contributions.png
@@ -12,11 +12,11 @@ header:
   heading_size: small
   title: Willkommen zur Projekt-Webseite von GOAT!
   subtitle:
-  image: isochrone_de.jpg
+  image: isochrone.png
 
 what:
   title: Was ist GOAT?
-  image: grundschulen_small.jpg
+  image: heatmap.png
   description: GOAT ist ein interaktives, dynamisches und datengestütztes Planungswerkzeug für die Erreichbarkeitsplanung. Es wird von einer aktiven Community als Open-Source-Projekt entwickelt. Mit GOAT können Erreichbarkeitsanalysen mit verschiedenen Verkehrsmitteln berechnet werden. Regelmäßig kommen neue Funktionen und Verbesserungen hinzu. 
 
 project:
@@ -31,7 +31,11 @@ aim:
 
 team:
   title: GOAT 3.0 - Projektteam
-  image: projectteam_grey.png
+  logo_ioer: logo_ioer.png
+  logo_mvv: logo_mvv.png
+  logo_p4b: logo_p4b.png
+  logo_psu: logo_psu.png
+  logo_tum: logo_tum.svg
   description: Unser diverses Projektkonsortium - die [Technische Universität München (TUM)](https://www.mos.ed.tum.de/sv/startseite/), die [Plan4Better GmbH (P4B)](https://plan4better.de), das [Leibniz-Institut für ökologische Raumentwicklung Dresden (IÖR)](https://www.ioer.de/), die [Prof. Schaller UmweltConsult GmbH (PSU)](https://www.psu-schaller.de/) und der [Münchner Verkehrs- und Tarifverbund GmbH (MVV)](https://www.mvv-muenchen.de/) - beinhaltet Experten:innen aus der Erreichbarkeitsplanung, der GIS-Entwicklung, der Grünraumplanung, dem ÖPNV-Ausbau und vielem mehr. 
 
 

@@ -375,7 +375,7 @@ npm install
 ```
 Enable live browser reload with the following:
 ```bash
-bundle exec jekyll s --livereload
+bundle install && bundle exec jekyll s --livereload
 ```
 
 Use the following commands to compile js scripts:
