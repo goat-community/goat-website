@@ -5,6 +5,7 @@ en:
   menu:                       "Menu"
   navigate_docs:              "Navigate Documentation"
   recent_posts:               "Recent Posts"
+  upcoming_events:            "Upcoming Events"
 
 de:
   previous:                   "Vorherige"
@@ -13,4 +14,5 @@ de:
   menu:                       "Menü"
   navigate_docs:              "Zur Dokumentation"
   recent_posts:               "Neue Blogeinträge"
+  upcoming_events:            "Kommende Veranstaltungen"
   
