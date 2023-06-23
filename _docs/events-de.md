@@ -7,8 +7,9 @@ lang: de
 
 
 - GOAT-Anwenderworkshop in Freising (27.07.2023, Freising)
+- GOAT-Anwenderworkshop in Fürstenfeldbruck (22.07.2023, Fürstenfeldbruck)
+- Bürgerworkshop (19.07.2023, München)
 - GOAT-Anwenderworkshops in München (19.07.2023, München)
-- GOAT-Anwenderworkshop in Fürstenfeldbruck (22.06.2023, Fürstenfeldbruck)
 
 ### Vergangene Veranstaltungen 
 

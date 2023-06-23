@@ -8,7 +8,8 @@ lang: en
 
 - GOAT Application Workshop in Freising (27.07.2023, Freising)
 - GOAT Application Workshops in München (19.07.2023, München)
-- GOAT Application Workshop in Fürstenfeldbruck (22.06.2023, Fürstenfeldbruck)
+- Citizen Workshop (19.07.2023, München)
+- GOAT Application Workshop in Fürstenfeldbruck (22.07.2023, Fürstenfeldbruck)
 
 ### Past Events
 
