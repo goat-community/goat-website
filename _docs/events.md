@@ -5,10 +5,11 @@ lang: en
 ---
 ### Upcoming Events
 
-- Citizen Workshop (03.09.2023, München)
+- Fahrradkommunalkonferenz (22.-23.11.2023, Regensburg)
 
 ### Past Events
 
+- Citizen Workshop (03.09.2023, München)
 - GOAT Application Workshop in Freising (27.07.2023, Freising)
 - GOAT Application Workshops in München (19.07.2023, München)
 - GOAT Application Workshop in Fürstenfeldbruck (29.06.2023, Fürstenfeldbruck)
