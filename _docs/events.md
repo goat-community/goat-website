@@ -5,15 +5,13 @@ lang: en
 ---
 ### Upcoming Events
 
-
-- GOAT Application Workshop in Freising (27.07.2023, Freising)
-- GOAT Application Workshops in München (19.07.2023, München)
-- Citizen Workshop (19.07.2023, München)
-- GOAT Application Workshop in Fürstenfeldbruck (29.06.2023, Fürstenfeldbruck)
-
+- Citizen Workshop (03.09.2023, München)
 
 ### Past Events
 
+- GOAT Application Workshop in Freising (27.07.2023, Freising)
+- GOAT Application Workshops in München (19.07.2023, München)
+- GOAT Application Workshop in Fürstenfeldbruck (29.06.2023, Fürstenfeldbruck)
 - Workshop „GOAT - ein Erreichbarkeitsinstrument zum Planen der 15-Minuten-Stadt" (31.05.2023, online)
 - GOAT Application Workshop in Görlitz (20.04.2023, Görlitz) 
 - 4.Consortium partner meeting (20.-21.04.2023, Görlitz) 
