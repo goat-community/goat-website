@@ -5,10 +5,11 @@ lang: de
 ---
 ### Aktuelle Veranstaltungen 
 
-- Bürgerworkshop (03.09.2023, München)
+- Fahrradkommunalkonferenz (22.-23.11.2023, Regensburg)
 
 ### Vergangene Veranstaltungen 
 
+- Bürgerworkshop (03.09.2023, München)
 - GOAT-Anwenderworkshop in Freising (27.07.2023, Freising)
 - GOAT-Anwenderworkshops in München (19.07.2023, München)
 - GOAT-Anwenderworkshop in Fürstenfeldbruck (29.06.2023, Fürstenfeldbruck)
