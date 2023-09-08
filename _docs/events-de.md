@@ -6,7 +6,6 @@ lang: de
 ### Aktuelle Veranstaltungen 
 
 - Fahrradkommunalkonferenz (22.-23.11.2023, Regensburg)
-- GOAT-Anwenderworkshop in Dresden (21.11.2023, Dresden)
 
 ### Vergangene Veranstaltungen 
 
