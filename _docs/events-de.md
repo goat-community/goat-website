@@ -5,13 +5,14 @@ lang: de
 ---
 ### Aktuelle Veranstaltungen 
 
-
-- GOAT-Anwenderworkshop in Freising (27.07.2023, Freising)
-- GOAT-Anwenderworkshops in München (19.07.2023, München)
-- GOAT-Anwenderworkshop in Fürstenfeldbruck (22.06.2023, Fürstenfeldbruck)
+- Fahrradkommunalkonferenz (22.-23.11.2023, Regensburg)
 
 ### Vergangene Veranstaltungen 
 
+- Bürgerworkshop (03.09.2023, München)
+- GOAT-Anwenderworkshop in Freising (27.07.2023, Freising)
+- GOAT-Anwenderworkshops in München (19.07.2023, München)
+- GOAT-Anwenderworkshop in Fürstenfeldbruck (29.06.2023, Fürstenfeldbruck)
 - Workshop „GOAT - ein Erreichbarkeitsinstrument zum Planen der 15-Minuten-Stadt" (31.05.2023, online)
 - GOAT-Anwenderworkshop in Görlitz (20.04.2023, Görlitz) 
 - 4.Konsortialpartnertreffen (20.-21.04.2023, Görlitz) 

@@ -7,6 +7,7 @@ width: full
 
 
 header:
+  header_padding_remove: vertical
   background_image: eddie-junior-contributions.png
   background_image_attribute: "Image: Eddie Junior on www.unsplash.com"
   header_size: large
